@@ -28,6 +28,7 @@
             <div class="panel-header panel-header-sm">
             </div>
             <div class="content">
+                @include('dashboard.notification')
                 @yield('content')
             </div>
             @include('dashboard.footer')
