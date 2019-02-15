@@ -23,6 +23,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $ac=auth()->user()->acctype;
+        switch($ac){
+            case 'a':
+            return view('userP.index')->with('ac',$ac);
+                break;
+            default:
+            return view('userP.index')->with('ac',"other");
+                break;
+        }
     }
 }
