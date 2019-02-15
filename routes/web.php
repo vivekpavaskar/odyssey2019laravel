@@ -20,3 +20,6 @@ Auth::routes(['verify'=>true]);
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/changePassword', 'HomeController@changePassword');
 Route::post('/changePassword', 'HomeController@changePasswordProcess');
+
+//userP
+Route::get('/registerEvents', 'UserPController@registerEvents');

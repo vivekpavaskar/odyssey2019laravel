@@ -1,5 +1,5 @@
-<div class="sidebar" data-color="red">
-    <!--Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"-->
+<div class="sidebar" data-color="orange">
+    {{-- <!--Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"--> --}}
     <div class="logo">
         <a href="/home" class="simple-text logo-mini">
 
@@ -16,7 +16,12 @@
                     <p>Dashboard</p>
                 </a>
             </li>
-            
+            <li>
+                <a href="/registerEvents">
+                    <i class="now-ui-icons files_paper"></i>
+                    <p>Register Events</p>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
