@@ -12,18 +12,88 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('First Name') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
+                                <input id="fname" type="text" class="form-control{{ $errors->has('fname') ? ' is-invalid' : '' }}" name="fname" value="{{ old('fname') }}" required autofocus>
 
-                                @if ($errors->has('name'))
+                                @if ($errors->has('fname'))
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('name') }}</strong>
+                                        <strong>{{ $errors->first('fname') }}</strong>
                                     </span>
                                 @endif
                             </div>
                         </div>
+
+                        <div class="form-group row">
+                                <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Last Name') }}</label>
+
+                                <div class="col-md-6">
+                                    <input id="lname" type="text" class="form-control{{ $errors->has('lname') ? ' is-invalid' : '' }}" name="lname" value="{{ old('lname') }}" required autofocus>
+
+                                    @if ($errors->has('lname'))
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $errors->first('lname') }}</strong>
+                                        </span>
+                                    @endif
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                    <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Mobile') }}</label>
+
+                                    <div class="col-md-6">
+                                        <input id="mobile" type="text" class="form-control{{ $errors->has('mobile') ? ' is-invalid' : '' }}" name="mobile" value="{{ old('mobile') }}" required autofocus>
+
+                                        @if ($errors->has('mobile'))
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $errors->first('mobile') }}</strong>
+                                            </span>
+                                        @endif
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                        <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('USN') }}</label>
+
+                                        <div class="col-md-6">
+                                            <input id="usn" type="text" class="form-control{{ $errors->has('usn') ? ' is-invalid' : '' }}" name="usn" value="{{ old('usn') }}" required autofocus>
+
+                                            @if ($errors->has('usn'))
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $errors->first('usn') }}</strong>
+                                                </span>
+                                            @endif
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Semester') }}</label>
+
+                                            <div class="col-md-6">
+                                                <input id="sem" type="number" class="form-control{{ $errors->has('sem') ? ' is-invalid' : '' }}" name="sem" value="{{ old('sem') }}" required autofocus>
+
+                                                @if ($errors->has('sem'))
+                                                    <span class="invalid-feedback" role="alert">
+                                                        <strong>{{ $errors->first('sem') }}</strong>
+                                                    </span>
+                                                @endif
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                                <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('College') }}</label>
+
+                                                <div class="col-md-6">
+                                                    <input id="college" type="text" class="form-control{{ $errors->has('college') ? ' is-invalid' : '' }}" name="college" value="{{ old('college') }}" required autofocus>
+
+                                                    @if ($errors->has('college'))
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $errors->first('college') }}</strong>
+                                                        </span>
+                                                    @endif
+                                                </div>
+                                            </div>
 
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
