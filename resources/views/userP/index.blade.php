@@ -1,244 +1,120 @@
 @extends('dashboard.master')
 @section('content')
 <div class="row">
-    <div class="col-md-12">
-        <div class="card">
-            <div class="card-header">
-                <h4 class="card-title"> Announcements
-
-                </h4>
+    <div class="col">
+        <div class="card shadow">
+            <div class="card-header border-0">
+                <h3 class="mb-0">Card tables</h3>
             </div>
-            <div class="card-body">
-                <div class="table-responsive">
-                    <table class="table overflow-auto">
-                        <thead class=" text-primary">
-                            <th>
-                                Name
-                            </th>
-                            <th>
-                                Country
-                            </th>
-                            <th>
-                                City
-                            </th>
-                            <th class="text-right">
-                                Salary
-                            </th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    Dakota Rice
-                                </td>
-                                <td>
-                                    Niger
-                                </td>
-                                <td>
-                                    Oud-Turnhout
-                                </td>
-                                <td class="text-right">
-                                    $36,738
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Minerva Hooper
-                                </td>
-                                <td>
-                                    Curaçao
-                                </td>
-                                <td>
-                                    Sinaai-Waas
-                                </td>
-                                <td class="text-right">
-                                    $23,789
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Sage Rodriguez
-                                </td>
-                                <td>
-                                    Netherlands
-                                </td>
-                                <td>
-                                    Baileux
-                                </td>
-                                <td class="text-right">
-                                    $56,142
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Philip Chaney
-                                </td>
-                                <td>
-                                    Korea, South
-                                </td>
-                                <td>
-                                    Overland Park
-                                </td>
-                                <td class="text-right">
-                                    $38,735
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Doris Greene
-                                </td>
-                                <td>
-                                    Malawi
-                                </td>
-                                <td>
-                                    Feldkirchen in Kärnten
-                                </td>
-                                <td class="text-right">
-                                    $63,542
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Mason Porter
-                                </td>
-                                <td>
-                                    Chile
-                                </td>
-                                <td>
-                                    Gloucester
-                                </td>
-                                <td class="text-right">
-                                    $78,615
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Jon Porter
-                                </td>
-                                <td>
-                                    Portugal
-                                </td>
-                                <td>
-                                    Gloucester
-                                </td>
-                                <td class="text-right">
-                                    $98,615
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Jon Porter
-                                </td>
-                                <td>
-                                    Portugal
-                                </td>
-                                <td>
-                                    Gloucester
-                                </td>
-                                <td class="text-right">
-                                    $98,615
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Jon Porter
-                                </td>
-                                <td>
-                                    Portugal
-                                </td>
-                                <td>
-                                    Gloucester
-                                </td>
-                                <td class="text-right">
-                                    $98,615
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Jon Porter
-                                </td>
-                                <td>
-                                    Portugal
-                                </td>
-                                <td>
-                                    Gloucester
-                                </td>
-                                <td class="text-right">
-                                    $98,615
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Jon Porter
-                                </td>
-                                <td>
-                                    Portugal
-                                </td>
-                                <td>
-                                    Gloucester
-                                </td>
-                                <td class="text-right">
-                                    $98,615
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Jon Porter
-                                </td>
-                                <td>
-                                    Portugal
-                                </td>
-                                <td>
-                                    Gloucester
-                                </td>
-                                <td class="text-right">
-                                    $98,615
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Jon Porter
-                                </td>
-                                <td>
-                                    Portugal
-                                </td>
-                                <td>
-                                    Gloucester
-                                </td>
-                                <td class="text-right">
-                                    $98,615
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Jon Porter
-                                </td>
-                                <td>
-                                    Portugal
-                                </td>
-                                <td>
-                                    Gloucester
-                                </td>
-                                <td class="text-right">
-                                    $98,615
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Jon Porter
-                                </td>
-                                <td>
-                                    Portugal
-                                </td>
-                                <td>
-                                    Gloucester
-                                </td>
-                                <td class="text-right">
-                                    $98,615
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+            <div class="table-responsive">
+                <table class="table align-items-center table-flush">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Project</th>
+                            <th>Budget</th>
+                            <th>Status</th>
+                            <th>Users</th>
+                            <th>Completion</th>
+                            <th>asda</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr><tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr><tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr><tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr><tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr><tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr><tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr><tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr><tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr><tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr><tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr><tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr><tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-footer py-4">
             </div>
         </div>
     </div>
