@@ -6,8 +6,6 @@
             <div class="card-header">
                 <h5 class="card-category">dept</h5>
                 <h4 class="card-title">event name</h4>
-                <div class="dropdown">
-                </div>
             </div>
             <div class="card-body">
                 <a href="#" class="btn btn-primary">Register</a>
