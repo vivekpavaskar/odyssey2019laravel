@@ -27,9 +27,11 @@ class HomeController extends Controller
         $ac=auth()->user()->acctype;
         switch($ac){
             case 'a':
+            // return view('dashboard.master');
             return view('userP.index')->with('ac',$ac);
-                break;
+            break;
             default:
+            // return view('dashboard.master');
             return view('userP.index')->with('ac',"other");
                 break;
         }
