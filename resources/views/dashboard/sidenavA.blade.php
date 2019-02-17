@@ -58,6 +58,11 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                        <a class="nav-link" href="/coordinators">
+                            <i class="ni ni-circle-08 text-pink"></i> Coordinators
+                        </a>
+                    </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/registration">
                         <i class="ni ni-circle-08 text-pink"></i> Registration
                     </a>

@@ -19,10 +19,10 @@ class CreateUsersTable extends Migration
             $table->string('password',100);
             $table->string('fname',50);
             $table->string('lname',50);
-            $table->string('mobile',15);
-            $table->string('usn',11);
-            $table->string('sem',2);
-            $table->string('college');
+            $table->string('mobile',15)->nullable();
+            $table->string('usn',11)->nullable();
+            $table->string('sem',2)->nullable();
+            $table->string('college')->nullable();
             $table->string('acctype',10); //u-user a-admin r-registrationTeam eventCode-eventCoordinators
             $table->timestamp('email_verified_at')->nullable();
             $table->rememberToken();

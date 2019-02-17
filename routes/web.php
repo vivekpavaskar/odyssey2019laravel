@@ -25,6 +25,9 @@ Route::post('/changePassword', 'HomeController@changePasswordProcess');
 Route::get('/events', 'UserAController@events');
 Route::post('/newEvent', 'UserAController@newEvent');
 Route::post('/deleteEvent/{id}', 'UserAController@deleteEvent');
+Route::get('/coordinators', 'UserAController@coordinators');
+Route::post('/newCoordinator', 'UserAController@newCoordinator');
+Route::post('/deleteCoordinator/{id}', 'UserAController@deleteCoordinator');
 
 Route::get('/registration', 'UserAController@registration');
 
