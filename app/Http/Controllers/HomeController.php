@@ -27,12 +27,16 @@ class HomeController extends Controller
         $ac=auth()->user()->acctype;
         switch($ac){
             case 'a':
-            // return view('dashboard.master');
-            return view('userP.index')->with('ac',$ac);
-            break;
+                return view('userA.index');
+                break;
+            case 'r':
+                return view('userR.index');
+                break;
+            case 'p':
+                return view('userP.index');
+                break;
             default:
-            // return view('dashboard.master');
-            return view('userP.index')->with('ac',"other");
+                return view('userC.index');
                 break;
         }
     }
@@ -40,11 +44,12 @@ class HomeController extends Controller
     {
         return view('auth.changePassword');
     }
+
     public function changePasswordProcess(Request $req)
     {
 
         $validate = $req->validate([
-            'password' => 'required|confirmed|min:6'
+            'password' => 'required|confirmed'
         ]);
 
 

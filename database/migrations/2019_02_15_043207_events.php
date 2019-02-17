@@ -17,7 +17,7 @@ class Events extends Migration
             $table->increments('id');
             $table->string('ecode',10);
             $table->string('event',50);
-            $table->string('dept',5);
+            $table->string('dept',20);
             $table->timestamps();
         });
     }

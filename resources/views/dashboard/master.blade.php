@@ -20,7 +20,16 @@
 
 <body>
     <!-- Sidenav -->
-    @include('dashboard.sidenav')
+    @switch(auth()->user()->acctype)
+    @case('a')
+    @include('dashboard.sidenavA')
+    @break
+    @case(2)
+
+    @break
+    @default
+
+    @endswitch
     <!-- Main content -->
     <div class="main-content">
         <!-- Top navbar -->
@@ -121,6 +130,7 @@
         </div>
         <!-- Page content -->
         <div class="container-fluid mt--7">
+            @include('dashboard.notification')
             @yield('content')
             <!-- Footer -->
             @include('dashboard.footer')

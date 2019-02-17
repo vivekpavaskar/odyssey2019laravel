@@ -21,5 +21,12 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/changePassword', 'HomeController@changePassword');
 Route::post('/changePassword', 'HomeController@changePasswordProcess');
 
+//userA
+Route::get('/events', 'UserAController@events');
+Route::post('/newEvent', 'UserAController@newEvent');
+Route::post('/deleteEvent/{id}', 'UserAController@deleteEvent');
+
+Route::get('/registration', 'UserAController@registration');
+
 //userP
 Route::get('/registerEvents', 'UserPController@registerEvents');

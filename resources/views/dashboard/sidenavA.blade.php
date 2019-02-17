@@ -53,8 +53,13 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/registerEvents">
-                        <i class="ni ni-circle-08 text-pink"></i> Register
+                    <a class="nav-link" href="/events">
+                        <i class="ni ni-circle-08 text-pink"></i> Events
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/registration">
+                        <i class="ni ni-circle-08 text-pink"></i> Registration
                     </a>
                 </li>
             </ul>
