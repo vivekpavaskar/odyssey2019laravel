@@ -77,7 +77,7 @@ class RegisterController extends Controller
             'usn' => $data['usn'],
             'sem' => $data['sem'],
             'college' => $data['college'],
-            'acctype' => "u",
+            'acctype' => "p",
         ]);
     }
 }
