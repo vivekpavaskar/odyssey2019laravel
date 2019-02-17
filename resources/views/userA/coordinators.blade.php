@@ -118,7 +118,7 @@
                         </tr>
                         @endforeach
                         @else
-                        No Events Found!!!
+                        No Coordinators Found!!!
                         @endif
 
                     </tbody>

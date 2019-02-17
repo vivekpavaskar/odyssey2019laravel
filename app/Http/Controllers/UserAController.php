@@ -40,7 +40,6 @@ public function coordinators()
 {
     $events=DB::table('events')->get();
     $coord=DB::table('users')->where([['acctype','!=','a'],['acctype','!=','p'],['acctype','!=','r']])->get();
-    // dd($coord);
     return view('userA.coordinators')->with('events',$events)->with('coord',$coord);
 }
 
@@ -56,24 +55,30 @@ public function newCoordinator(Request $req)
         return back()->with('success',"Data Inserted!!");
     }
 
-public function deleteCoordinator($id)
+    public function deleteCoordinator($id)
     {
         // dd($id);
         DB::table('users')->where('id','=',$id)->delete();
         return back()->with('success',"Coordinator Deleted!!");
     }
 
-
-
-
-
-
-
     public function registration()
     {
-        return view('userA.registration');
+        $reg=DB::table('users')->where('acctype','=','r')->get();
+        return view('userA.registration')->with('reg',$reg);
     }
 
 
+    public function newRegistration(Request $req)
+        {
+            DB::table('users')->insert([
+                'email' => $req->input('email'),
+                'password' => bcrypt($req->input('password')),
+                'fname' => $req->input('fname'),
+                'lname' => $req->input('lname'),
+                'acctype' => 'r'
+                ]);
+            return back()->with('success',"Data Inserted!!");
+        }
 
 }

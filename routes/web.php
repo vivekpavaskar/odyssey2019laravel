@@ -28,8 +28,9 @@ Route::post('/deleteEvent/{id}', 'UserAController@deleteEvent');
 Route::get('/coordinators', 'UserAController@coordinators');
 Route::post('/newCoordinator', 'UserAController@newCoordinator');
 Route::post('/deleteCoordinator/{id}', 'UserAController@deleteCoordinator');
-
 Route::get('/registration', 'UserAController@registration');
+Route::post('/newRegistration', 'UserAController@newRegistration');
+Route::post('/deleteCoordinator/{id}', 'UserAController@deleteCoordinator');
 
 //userP
 Route::get('/registerEvents', 'UserPController@registerEvents');
