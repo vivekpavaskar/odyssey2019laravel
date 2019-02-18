@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
+use App\User;
 
 class HomeController extends Controller
 {
@@ -40,6 +40,7 @@ class HomeController extends Controller
                 break;
         }
     }
+
     public function changePassword()
     {
         return view('auth.changePassword');
@@ -47,15 +48,14 @@ class HomeController extends Controller
 
     public function changePasswordProcess(Request $req)
     {
-
         $validate = $req->validate([
             'password' => 'required|confirmed'
         ]);
 
-
-        DB::table('users')
-            ->where('id', auth()->user()->id)
-            ->update(['password' => bcrypt($req['password'])]);
+        $id=auth()->user()->id;
+        $u = User::find($id);
+        $u->password=bcrypt($req['password']);
+        $u->save();
         return back()->with('success','Password Changed!!!');
     }
 }

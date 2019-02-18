@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
+use App\User;
+use App\Event;
+use App\Registration;
 
 class UserAController extends Controller
 {
@@ -15,70 +17,86 @@ class UserAController extends Controller
 
     public function events()
     {
-        $events=DB::table('events')->get();
+        $events=Event::all();
         return view('userA.events')->with('events',$events);
     }
 
     public function newEvent(Request $req)
-    {
-        DB::table('events')->insert([
-            'ecode' => $req->input('ecode'),
-            'event' => $req->input('event'),
-            'dept' => $req->input('dept')
-            ]);
+{
+        $e=new Event;
+        $e->ecode=$req->input('ecode');
+        $e->event=$req->input('event');
+        $e->dept=$req->input('dept');
+        $e->save();
         return back()->with('success',"Data Inserted!!");
     }
 
     public function deleteEvent($id)
     {
-        // dd($id);
-        DB::table('events')->where('id','=',$id)->delete();
+        $e=Event::find($id);
+        $e->delete();
         return back()->with('success',"Data Deleted!!");
     }
 
 public function coordinators()
 {
-    $events=DB::table('events')->get();
-    $coord=DB::table('users')->where([['acctype','!=','a'],['acctype','!=','p'],['acctype','!=','r']])->get();
+    $events=Event::all();
+    $coord=User::where('acctype','!=','a')->where('acctype','!=','p')->where('acctype','!=','r')->get();
     return view('userA.coordinators')->with('events',$events)->with('coord',$coord);
 }
 
 public function newCoordinator(Request $req)
     {
-        DB::table('users')->insert([
-            'email' => $req->input('email'),
-            'password' => bcrypt($req->input('password')),
-            'fname' => $req->input('fname'),
-            'lname' => $req->input('lname'),
-            'acctype' => $req->input('acctype')
-            ]);
+        if((User::where('email', $req->input('email'))->get()->count())>0){
+            return back()->with('error',"Email Already used!!");
+        }
+        else{
+        $u=new User();
+        $u->email=$req->input('email');
+        $u->password=bcrypt($req->input('password'));
+        $u->fname=$req->input('fname');
+        $u->lname=$req->input('lname');
+        $u->acctype=$req->input('acctype');
+        $u->save();
         return back()->with('success',"Data Inserted!!");
+        }
     }
 
     public function deleteCoordinator($id)
     {
-        // dd($id);
-        DB::table('users')->where('id','=',$id)->delete();
+        User::find($id)->delete();
         return back()->with('success',"Coordinator Deleted!!");
     }
 
     public function registration()
     {
-        $reg=DB::table('users')->where('acctype','=','r')->get();
+        $reg=User::where('acctype','r')->get();
         return view('userA.registration')->with('reg',$reg);
     }
 
 
     public function newRegistration(Request $req)
         {
-            DB::table('users')->insert([
-                'email' => $req->input('email'),
-                'password' => bcrypt($req->input('password')),
-                'fname' => $req->input('fname'),
-                'lname' => $req->input('lname'),
-                'acctype' => 'r'
-                ]);
+            if((User::where('email', $req->input('email'))->get()->count())>0){
+                return back()->with('error',"Email Already used!!");
+            }
+            else{
+                $u=new User();
+                $u->email=$req->input('email');
+                $u->password=bcrypt($req->input('password'));
+                $u->fname=$req->input('fname');
+                $u->lname=$req->input('lname');
+                $u->acctype='r';
+                $u->save();
             return back()->with('success',"Data Inserted!!");
+            }
         }
+
+        public function deleteRegistration($id)
+    {
+        User::find($id)->delete();
+        return back()->with('success',"Registration Deleted!!");
+    }
+
 
 }

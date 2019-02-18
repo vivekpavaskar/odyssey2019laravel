@@ -3,9 +3,9 @@
     <strong>Success!</strong> - {{ session('success') }}
 </div>
 @endif
-{{-- 
-@if ($errors)
-<div class="alert alert-danger" role="alert">
-    <strong>Danger!</strong> This is a danger alert—check it out!
+
+@if (session('error'))
+<div class="alert alert-danger" role="alert" onclick="this.style.display='none'">
+    <strong>Danger!</strong> - {{ session('error') }}
 </div>
-@endif --}}
+@endif

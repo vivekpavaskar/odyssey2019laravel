@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Registration extends Migration
+class Announcements extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,10 @@ class Registration extends Migration
      */
     public function up()
     {
-        Schema::create('registration', function (Blueprint $table) {
+        Schema::create('announcements', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('uid',4); // id from user table
-            $table->string('eid',2); // id from events table
-            $table->string('team',500)->nulable();
-            $table->string('payment',10);
+            $table->string('eid',10);
+            $table->string('description',1000);
             $table->timestamps();
         });
     }
@@ -30,6 +28,6 @@ class Registration extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('registration');
+        Schema::dropIfExists('announcements');
     }
 }

@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <form method="POST" action="/newRegistration">
+<form method="POST" action="/newRegistration">
                     @csrf
                     <h6 class="heading-small text-muted mb-4">Registration Details</h6>
                     <div class="pl-lg-4">
