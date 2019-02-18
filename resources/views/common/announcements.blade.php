@@ -53,6 +53,7 @@
         </div>
     </div>
 </div>
+@if (auth()->user()->acctype=='a')
 <div class="row">
     <div class="col-xl-12 mb-5 mb-xl-0">
         <div class="card shadow">
@@ -105,4 +106,5 @@
     </div>
 
 </div>
+@endif
 @endsection

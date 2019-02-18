@@ -24,6 +24,9 @@
     @case('a')
     @include('dashboard.sidenavA')
     @break
+    @case('r')
+    @include('dashboard.sidenavR')
+    @break
     @case(2)
 
     @break

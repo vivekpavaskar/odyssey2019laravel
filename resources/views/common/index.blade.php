@@ -25,13 +25,13 @@
                         @foreach ($announcements as $a)
                         <tr>
                             <th scope="row">
-                                {{ $e->created_at }}
+                                {{ $a->created_at }}
                             </th>
                             <td>
-                                {{ $e->eid }}
+                                {{ $a->eid }}
                             </td>
                             <td>
-                                {{ $e->description }}
+                                {{ $a->description }}
                             </td>
                         </tr>
                         @endforeach

@@ -36,5 +36,9 @@ Route::get('/registration', 'UserAController@registration');
 Route::post('/newRegistration', 'UserAController@newRegistration');
 Route::post('/deleteRegistration/{id}', 'UserAController@deleteRegistration');
 
+//userR
+Route::get('/participants', 'UserRController@participants');
+Route::post('/payment/{id}', 'UserRController@payment');
+
 //userP
 Route::get('/registerEvents', 'UserPController@registerEvents');
