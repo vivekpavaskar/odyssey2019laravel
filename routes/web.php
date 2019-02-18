@@ -17,9 +17,13 @@ Route::get('/', function () {
 
 Auth::routes(['verify'=>true]);
 
+//common
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/changePassword', 'HomeController@changePassword');
 Route::post('/changePassword', 'HomeController@changePasswordProcess');
+Route::get('/announcements', 'HomeController@announcements');
+Route::post('/newAnnouncement', 'HomeController@newAnnouncement');
+Route::post('/deleteAnnouncement/{id}', 'HomeController@deleteAnnouncement');
 
 //userA
 Route::get('/events', 'UserAController@events');

@@ -54,17 +54,22 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/events">
-                        <i class="ni ni-circle-08 text-pink"></i> Events
+                        <i class="ni ni-trophy text-red"></i> Events
                     </a>
                 </li>
                 <li class="nav-item">
                         <a class="nav-link" href="/coordinators">
-                            <i class="ni ni-circle-08 text-pink"></i> Coordinators
+                            <i class="ni ni-badge text-green"></i> Coordinators
                         </a>
                     </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/registration">
-                        <i class="ni ni-circle-08 text-pink"></i> Registration
+                        <i class="ni ni-money-coins text-orange"></i> Registration
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/announcements">
+                        <i class="ni ni-notification-70 text-blue"></i> Announcemets
                     </a>
                 </li>
             </ul>

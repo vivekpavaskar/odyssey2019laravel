@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+use App\Announcement;
+use App\Event;
 
 class HomeController extends Controller
 {
@@ -24,26 +26,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $ac=auth()->user()->acctype;
-        switch($ac){
-            case 'a':
-                return view('userA.index');
-                break;
-            case 'r':
-                return view('userR.index');
-                break;
-            case 'p':
-                return view('userP.index');
-                break;
-            default:
-                return view('userC.index');
-                break;
-        }
+        $announcements=Announcement::all();
+        return view('common.index')->with('announcements',$announcements);
     }
 
     public function changePassword()
     {
-        return view('auth.changePassword');
+        return view('common.changePassword');
     }
 
     public function changePasswordProcess(Request $req)
@@ -57,5 +46,28 @@ class HomeController extends Controller
         $u->password=bcrypt($req['password']);
         $u->save();
         return back()->with('success','Password Changed!!!');
+    }
+
+    public function announcements()
+    {
+        $announcements=Announcement::all();
+        $events=Event::all();
+        return view('common.announcements')->with('announcements',$announcements)->with('events',$events);
+    }
+
+    public function newAnnouncement(Request $req)
+    {
+        $ann= new Announcement;
+        $ann->eid=$req->input('eid');
+        $ann->description=$req->input('description');
+        $ann->save();
+        return back()->with('success','Announcement Posted!!!');
+    }
+
+    public function deleteAnnouncement($id)
+    {
+        $ann= Announcement::find($id);
+        $ann->delete();
+        return back()->with('success','Announcement Deleted!!!');
     }
 }
