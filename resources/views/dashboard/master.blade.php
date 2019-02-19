@@ -27,11 +27,8 @@
     @case('r')
     @include('dashboard.sidenavR')
     @break
-    @case(2)
-
-    @break
     @default
-
+    @include('dashboard.sidenavC')
     @endswitch
     <!-- Main content -->
     <div class="main-content">

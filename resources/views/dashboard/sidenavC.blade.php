@@ -53,8 +53,13 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/participants">
-                        <i class="ni ni-bullet-list-67 text-red"></i> View Participants
+                    <a class="nav-link" href="/eventParticipants">
+                        <i class="ni ni-notification-70 text-blue"></i> Participants
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/announcements">
+                        <i class="ni ni-notification-70 text-blue"></i> Announcemets
                     </a>
                 </li>
             </ul>
