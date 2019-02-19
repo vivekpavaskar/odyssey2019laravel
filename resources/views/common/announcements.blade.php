@@ -20,8 +20,8 @@
                                 <div class="form-group">
                                     <label class="form-control-label" for="input-first-name">Event</label>
                                     <select name="eid" class="form-control form-control-alternative" required>
-                                        <option value="">Select</option>
                                         @if (count($events)>0)
+                                        <option value="">Select</option>
                                         @foreach ($events as $e)
                                         <option value="{{ $e->ecode }}">{{ $e->ecode }} - {{ $e->event }}</option>
                                         @endforeach

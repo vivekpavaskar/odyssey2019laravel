@@ -6,6 +6,6 @@
 
 @if (session('error'))
 <div class="alert alert-danger" role="alert" onclick="this.style.display='none'">
-    <strong>Danger!</strong> - {{ session('error') }}
+    <strong>Error!</strong> - {{ session('error') }}
 </div>
 @endif

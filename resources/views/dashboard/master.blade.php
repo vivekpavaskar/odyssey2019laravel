@@ -27,6 +27,9 @@
     @case('r')
     @include('dashboard.sidenavR')
     @break
+    @case('p')
+    @include('dashboard.sidenavP')
+    @break
     @default
     @include('dashboard.sidenavC')
     @endswitch

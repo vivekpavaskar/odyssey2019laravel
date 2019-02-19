@@ -21,9 +21,9 @@ Auth::routes(['verify'=>true]);
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/changePassword', 'HomeController@changePassword');
 Route::post('/changePassword', 'HomeController@changePasswordProcess');
-Route::get('/announcements', 'HomeController@announcements');
-Route::post('/newAnnouncement', 'HomeController@newAnnouncement');
-Route::post('/deleteAnnouncement/{id}', 'HomeController@deleteAnnouncement');
+Route::get('/announcements', 'HomeController@announcements')->middleware('announcement');
+Route::post('/newAnnouncement', 'HomeController@newAnnouncement')->middleware('announcement');
+Route::post('/deleteAnnouncement/{id}', 'HomeController@deleteAnnouncement')->middleware('announcement');
 
 //userA
 Route::get('/events', 'UserAController@events');
@@ -45,3 +45,6 @@ Route::get('/eventParticipants', 'UserCController@eventParticipants');
 
 //userP
 Route::get('/registerEvents', 'UserPController@registerEvents');
+Route::get('/registerEvent/{id}', 'UserPController@registerEventForm');
+Route::post('/registerEventSolo/{id}', 'UserPController@registerEventFormSolo');
+Route::post('/registerEventTeam/{id}', 'UserPController@registerEventFormTeam');

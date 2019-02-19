@@ -18,7 +18,7 @@ class Registrations extends Migration
             $table->string('uid',4); // id from user table
             $table->string('eid',2); // id from events table
             $table->string('team',500)->nulable();
-            $table->string('payment',10);
+            $table->string('payment',15);
             $table->timestamps();
         });
     }

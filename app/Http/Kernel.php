@@ -64,6 +64,7 @@ class Kernel extends HttpKernel
         'registrations' => \App\Http\Middleware\UserR::class,
         'admin' => \App\Http\Middleware\UserA::class,
         'coordinator' => \App\Http\Middleware\UserC::class,
+        'announcement' => \App\Http\Middleware\UserAC::class,
     ];
 
     /**

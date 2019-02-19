@@ -27,6 +27,7 @@ class UserAController extends Controller
         $e->ecode=$req->input('ecode');
         $e->event=$req->input('event');
         $e->dept=$req->input('dept');
+        $e->type=$req->input('type');
         $e->save();
         return back()->with('success',"Data Inserted!!");
     }

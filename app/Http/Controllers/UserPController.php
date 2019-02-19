@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Event;
+use App\Registration;
 
 class UserPController extends Controller
 {
@@ -14,6 +16,51 @@ class UserPController extends Controller
 
     public function registerEvents()
     {
-        return view('userP.registerEvents');
+        $events=Event::all();
+        return view('userP.registerEvents')->with('events',$events);
+    }
+
+    public function registerEventForm($id)
+    {
+        $type=Event::find($id)->type;
+        // dd($type);
+        if($type=="Team"){
+            return view('userP.registerEventForm')->with('type',$type)->with('id',$id);
+        }
+        else{
+            return back();
+        }
+
+    }
+
+    public function registerEventFormSolo($id)
+    {
+        $check=Registration::where('uid',auth()->user()->id)->where('eid',$id)->count();
+        if($check>0){
+            return back()->with('error',"You are Already Registered!!");
+        }
+        $reg=new Registration;
+        $reg->uid=auth()->user()->id;
+        $reg->eid=$id;
+        $reg->team="N/A";
+        $reg->payment="Not Confirmed";
+        $reg->save();
+        return back()->with('success',"You are Registered!!");
+    }
+
+    public function registerEventFormTeam($id,Request $req)
+    {
+        // dd($id);
+        $check=Registration::where('uid',auth()->user()->id)->where('eid',$id)->count();
+        if($check>0){
+            return back()->with('error',"You are Already Registered!!");
+        }
+        $reg=new Registration;
+        $reg->uid=auth()->user()->id;
+        $reg->eid=$id;
+        $reg->team=$req->input("team");
+        $reg->payment="Not Confirmed";
+        $reg->save();
+        return back()->with('success',"You are Registered!!");
     }
 }
