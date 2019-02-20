@@ -48,3 +48,4 @@ Route::get('/registerEvents', 'UserPController@registerEvents');
 Route::get('/registerEvent/{id}', 'UserPController@registerEventForm');
 Route::post('/registerEventSolo/{id}', 'UserPController@registerEventFormSolo');
 Route::post('/registerEventTeam/{id}', 'UserPController@registerEventFormTeam');
+Route::get('/participationDetails', 'UserPController@participationDetails');

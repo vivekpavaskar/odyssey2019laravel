@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Event;
 use App\Registration;
+use Illuminate\Support\Facades\DB;
+
 
 class UserPController extends Controller
 {
@@ -42,7 +44,7 @@ class UserPController extends Controller
         $reg=new Registration;
         $reg->uid=auth()->user()->id;
         $reg->eid=$id;
-        $reg->team="N/A";
+        $reg->team="Solo";
         $reg->payment="Not Confirmed";
         $reg->save();
         return back()->with('success',"You are Registered!!");
@@ -62,5 +64,16 @@ class UserPController extends Controller
         $reg->payment="Not Confirmed";
         $reg->save();
         return back()->with('success',"You are Registered!!");
+    }
+
+    public function participationDetails()
+    {
+        $id=auth()->user()->id;
+        $participations = DB::table('registrations')
+            ->join('events', 'registrations.eid', '=', 'events.id')
+            ->where('uid',$id)
+            ->get();
+        // dd($participations);
+        return view('userP.participationDetails')->with('participations',$participations);
     }
 }

@@ -57,7 +57,11 @@
                         <i class="ni ni-trophy text-red"></i> Events
                     </a>
                 </li>
-
+                <li class="nav-item">
+                    <a class="nav-link" href="/participationDetails">
+                        <i class="ni ni-bullet-list-67 text-green"></i> Your Participation
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
