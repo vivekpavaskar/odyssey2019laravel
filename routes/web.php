@@ -23,7 +23,7 @@ Route::get('/changePassword', 'HomeController@changePassword');
 Route::post('/changePassword', 'HomeController@changePasswordProcess');
 Route::get('/announcements', 'HomeController@announcements')->middleware('announcement');
 Route::post('/newAnnouncement', 'HomeController@newAnnouncement')->middleware('announcement');
-Route::post('/deleteAnnouncement/{id}', 'HomeController@deleteAnnouncement')->middleware('announcement');
+Route::post('/deleteAnnouncement/{id}', 'HomeController@deleteAnnouncement')->middleware('admin');
 
 //userA
 Route::get('/events', 'UserAController@events');

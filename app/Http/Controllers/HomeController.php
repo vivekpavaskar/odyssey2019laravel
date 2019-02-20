@@ -26,7 +26,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $announcements=Announcement::all();
+        $announcements=Announcement::orderBy('id', 'DESC')->get();
         return view('common.index')->with('announcements',$announcements);
     }
 
@@ -50,7 +50,7 @@ class HomeController extends Controller
 
     public function announcements()
     {
-        $announcements=Announcement::all();
+        $announcements=Announcement::orderBy('id', 'DESC')->get();
         $events=Event::all();
         return view('common.announcements')->with('announcements',$announcements)->with('events',$events);
     }
@@ -58,7 +58,12 @@ class HomeController extends Controller
     public function newAnnouncement(Request $req)
     {
         $ann= new Announcement;
-        $ann->eid=$req->input('eid');
+        if (auth()->user()->acctype=="a") {
+            $ann->eid=$req->input('eid');
+        } else {
+            $ann->eid=auth()->user()->acctype;
+        }
+
         $ann->description=$req->input('description');
         $ann->save();
         return back()->with('success','Announcement Posted!!!');

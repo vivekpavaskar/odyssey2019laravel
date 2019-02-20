@@ -15,6 +15,7 @@
                     @csrf
                     <h6 class="heading-small text-muted mb-4">Announcement Details</h6>
                     <div class="pl-lg-4">
+                        @if (auth()->user()->acctype=="a")
                         <div class="row">
                             <div class="col-lg-11">
                                 <div class="form-group">
@@ -32,6 +33,7 @@
                                 </div>
                             </div>
                         </div>
+                        @endif
                         <div class="row">
                             <div class="col-lg-11">
                                 <div class="form-group">
@@ -80,7 +82,7 @@
                         @foreach ($announcements as $a)
                         <tr>
                             <th scope="row">
-                                {{ $a->created_at }}
+                                {{ \Carbon\Carbon::parse($a->created_at)->diffForHumans() }}
                             </th>
                             <td>
                                 {{ $a->eid }}

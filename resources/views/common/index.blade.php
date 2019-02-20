@@ -25,7 +25,7 @@
                         @foreach ($announcements as $a)
                         <tr>
                             <th scope="row">
-                                {{ $a->created_at }}
+                                {{ \Carbon\Carbon::parse($a->created_at)->diffForHumans() }}
                             </th>
                             <td>
                                 {{ $a->eid }}

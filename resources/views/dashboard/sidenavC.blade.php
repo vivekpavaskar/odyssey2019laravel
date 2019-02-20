@@ -54,7 +54,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/eventParticipants">
-                        <i class="ni ni-notification-70 text-blue"></i> Participants
+                        <i class="ni ni-bullet-list-67 text-green"></i> Participants
                     </a>
                 </li>
                 <li class="nav-item">
