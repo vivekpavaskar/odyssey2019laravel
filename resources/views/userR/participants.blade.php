@@ -8,11 +8,20 @@
                     <div class="col">
                         <h3 class="mb-0">Participants</h3>
                     </div>
+                    <div class="col text-right">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="ni ni-zoom-split-in"></i></span>
+                            </div>
+                            <input id="myInput" onkeyup="searchMobile()" class="form-control" placeholder="Search mobile number"
+                                type="text">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="table-responsive">
                 <!-- Projects table -->
-                <table class="table align-items-center table-flush">
+                <table id="pdetails" class="table align-items-center table-flush">
                     <thead class="thead-light">
                         <tr>
                             <th scope="col">Time</th>
@@ -28,7 +37,7 @@
                         @foreach ($participants as $p)
                         <tr>
                             <th scope="row">
-                                {{ $p->created_at }}
+                                {{ \Carbon\Carbon::parse($p->created_at)->diffForHumans() }}
                             </th>
                             <td>
                                 {{ $p->fname }} {{ $p->lname }}
@@ -43,12 +52,12 @@
                                 {{ $p->payment }}
                             </td>
                             <td>
-                                @if ($p->payment == "Paid")
-                                <input type="submit" value="{{ $p->id }}" class="btn btn-success" disabled>
+                                @if ($p->payment == "Confirmed")
+                                <input type="submit" value="Paid" class="btn btn-danger" disabled>
                                 @else
                                 <form action="/payment/{{ $p->id }}" method="post">
                                     @csrf
-                                    <input type="submit" value="{{ $p->id }}" class="btn btn-success">
+                                    <input type="submit" value="Paid" class="btn btn-success">
                                 </form>
                                 @endif
 
@@ -63,6 +72,28 @@
             </div>
         </div>
     </div>
-
 </div>
+<script>
+    function searchMobile() {
+        // Declare variables
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("pdetails");
+        tr = table.getElementsByTagName("tr");
+
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[1];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
 @endsection

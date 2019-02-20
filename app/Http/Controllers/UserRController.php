@@ -20,14 +20,13 @@ class UserRController extends Controller
             ->join('users', 'users.id', '=', 'registrations.uid')
             ->join('events', 'events.id', '=', 'registrations.eid')
             ->get();
-            // dd($participants);
         return view('userR.participants')->with('participants',$participants);
     }
 
     public function payment($id)
     {
-        $reg= Registration::find($id);
-        $reg->payment="Paid";
+        $reg=Registration::find($id);
+        $reg->payment="Confirmed";
         $reg->save();
         return back()->with('success','Status Changed!!');
     }
