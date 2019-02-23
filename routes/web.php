@@ -11,11 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Auth::routes();
 
-Auth::routes(['verify'=>true]);
+//Landing pages
+
+
+Route::get('/', function () {return view('landing.index');});
+Route::get('/cs0', function () {return view('landing.cs0');});
+
+
+
 
 //common
 Route::get('/home', 'HomeController@index')->name('home');

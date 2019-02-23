@@ -1,0 +1,18 @@
+.section.section-lg.section-hero.section-shaped {
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: contain;
+    background-color: black;
+    height: 700px;
+}
+
+@media(max-width:768px){
+    .section.section-lg.section-hero.section-shaped {
+        height: 300px;
+    }
+}
+@media(max-width:320px){
+    .section.section-lg.section-hero.section-shaped {
+        height: 100px;
+    }
+}
