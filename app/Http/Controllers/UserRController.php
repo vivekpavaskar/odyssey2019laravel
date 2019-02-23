@@ -16,11 +16,16 @@ class UserRController extends Controller
 
     public function participants()
     {
-        $participants = DB::table('registrations')
+
+        $reg = DB::table('registrations')
             ->join('users', 'users.id', '=', 'registrations.uid')
             ->join('events', 'events.id', '=', 'registrations.eid')
+            ->select('registrations.id','registrations.created_at','registrations.payment','users.fname','users.lname','users.mobile','events.ecode')
+            ->latest()
             ->get();
-        return view('userR.participants')->with('participants',$participants);
+
+            // dd($reg);
+        return view('userR.participants')->with('participants',$reg);
     }
 
     public function payment($id)
