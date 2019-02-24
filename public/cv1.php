@@ -24,11 +24,11 @@
 
     <?php include 'nav.php';?>
     <main>
-    <div class="position-relative">
+        <div class="position-relative">
             <!-- shape Hero -->
             <section style="background-color:#3a4546;">
                 <div class="shape shape-style-1 shape-default">
-                    <img src="img/cse0.png" class="img-fluid" style="margin-top:80px;">
+                    <img src="img/cv1.png" class="img-fluid" style="margin-top:80px;">
                 </div>
             </section>
             <!-- 1st Hero Variation -->
@@ -88,7 +88,7 @@
     <script src="vendor/bootstrap/bootstrap.min.js"></script>
     <script src="vendor/headroom/headroom.min.js"></script>
     <!-- Argon JS -->
-  <script src="js/argon-l.js?v=1.0.1"></script>
+    <script src="js/argon-l.js?v=1.0.1"></script>
 </body>
 
 </html>

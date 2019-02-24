@@ -22,13 +22,13 @@
 </head>
 
 <body>
-    @include('landing.nav')
+    <?php include "nav.php" ?>
     <main>
         <div class="position-relative">
             <!-- shape Hero -->
             <section style="background-color:#000000;">
                 <div class="shape shape-style-1 shape-default">
-                    <img src="img/mainBanner.jpg" class="img-fluid" style="margin-top:80px;width: 100%">
+                    <img src="img/mb.jpg" class="img-fluid" style="margin-top:80px;width: 100%">
                 </div>
             </section>
             <!-- 1st Hero Variation -->

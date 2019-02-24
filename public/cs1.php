@@ -25,7 +25,7 @@
     <main>
         <div class="position-relative">
             <!-- shape Hero -->
-            <section style="background-image:url('img/cse0.png');background-size:contain; background-repeat: no-repeat;background-position: 50% 80px ;background-color:#3a4546;">
+            <section style="background-image:url('img/mb.jpg');background-size:contain; background-repeat: no-repeat;background-position: 50% 80px ;background-color:#3a4546;">
                 <div class="shape shape-style-1 shape-default">
                     <span></span>
                     <span></span>

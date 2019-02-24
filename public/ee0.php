@@ -27,7 +27,7 @@
             <!-- shape Hero -->
             <section style="background-color:#3a4546;">
                 <div class="shape shape-style-1 shape-default">
-                    <img src="img/cse0.png" class="img-fluid" style="margin-top:80px;">
+                    <img src="img/eeo.jpg" class="img-fluid" style="margin-top:80px;">
                 </div>
             </section>
             <!-- 1st Hero Variation -->

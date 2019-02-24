@@ -17,7 +17,7 @@ Auth::routes();
 
 
 Route::get('/', function () {return view('landing.index');});
-Route::get('/cs0', function () {return view('landing.cs0');});
+// Route::get('/l', function () {return view('landing.register');});
 
 
 
