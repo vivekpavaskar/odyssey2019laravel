@@ -15,20 +15,18 @@
     <link href="vendor/nucleo/css/nucleo.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- Argon CSS -->
-    <link type="text/css" href="css/argon.css?v=1.0.1" rel="stylesheet">
+    <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="css/docs.min.css" rel="stylesheet">
-    <link type="text/css" href="/css/style.css" rel="stylesheet">
-
-
 </head>
 
 <body>
+
     <?php include 'nav.php';?>
     <main>
         <div class="position-relative">
             <!-- shape Hero -->
-            <section class="section section-lg section-hero section-shaped" style="background-image: url('img/cse0.png');">
+            <section style="background-image:url('img/cse0.png');background-size:contain; background-repeat: no-repeat;background-position: 50% 80px ;background-color:#3a4546;">
                 <div class="shape shape-style-1 shape-default">
                     <span></span>
                     <span></span>
@@ -78,9 +76,7 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <section class="section section-lg pt-lg-0 mt--200">
+        <section class="section section-lg pt-lg-0 mt--150">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -136,6 +132,7 @@
                 </div>
             </div>
         </section>
+        <br><br><br><br><br><br>
     </main>
     <?php include "footer.php";?>
     <!-- Core -->
@@ -144,7 +141,7 @@
     <script src="vendor/bootstrap/bootstrap.min.js"></script>
     <script src="vendor/headroom/headroom.min.js"></script>
     <!-- Argon JS -->
-    <script src="js/argon.js?v=1.0.1"></script>
+    <script src="js/argon-l.js?v=1.0.1"></script>
 </body>
 
 </html>

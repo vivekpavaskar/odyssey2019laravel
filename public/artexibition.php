@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
     <meta name="author" content="Creative Tim">
-    <title>Argon Design System - Free Design System for Bootstrap 4</title>
+    <title>Odyssey 2019</title>
     <!-- Favicon -->
     <link href="img/brand/favicon.png" rel="icon" type="image/png">
     <!-- Fonts -->
@@ -21,8 +21,7 @@
 </head>
 
 <body>
-    <?php include "nav.php";?>
-
+    <?php include 'nav.php';?>
     <main>
         <div class="position-relative">
             <!-- shape Hero -->
@@ -84,69 +83,51 @@
                             <div class="col-lg-12">
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
-                                        <h6 class="text-primary text-uppercase"><b>Face painting</b></h6>
+                                        <h6 class="text-primary text-uppercase"><b>Art exhibition&nbsp;&nbsp; [ Only
+                                                for Jain college of engineering students ]</b></h6>
                                         </h6><br>
                                         <p> <span style="font-weight: 900;"> Event code:</span> <span style="font-weight: 600;"></span>
                                             <br>
                                             <span style="font-weight: 900;"> Event name:</span> <span style="font-weight: 600;">
-                                                ArtPhoria </span><br><br>
-
+                                                Art Collectanea</span><br><br>
                                             <span class="font-weight-900">Staff Coordinator 1:</span>&nbsp;&nbsp;<span
                                                 class="font-weight-600"> Dr.Raghavendra( Chemistry dept)<br>
                                                 <span class="font-weight-900">Staff Coordinator 2:</span>&nbsp;&nbsp;<span
                                                     class="font-weight-600"> Dr.Supriya Kulkarni( Civil dept)<br>
                                                     <span class="font-weight-900">Staff Coordinator 3:</span>&nbsp;&nbsp;<span
-                                                        class="font-weight-600"> Prof.zuhi( EC dept)<br>
-                                                        <br> <span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;<span
-                                                            class="font-weight-600"> Abhishek Chalke &nbsp;&nbsp;[
-                                                            9743744284 ]
-                                                        </span>&nbsp; &nbsp; <br><b>
+                                                        class="font-weight-600"> Prof.zuhi( EC dept)<br><br>
+                                                        <span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;<span
+                                                            class="font-weight-600"> Abhishek Chalke&nbsp;[ 9743744284
+                                                            ]
+                                                            <br>
                                                             <span class="font-weight-900">Student Coordinator 2:</span>&nbsp;&nbsp;
-                                                            <span class="font-weight-600">Rutuja Kelkar&nbsp;&nbsp;[
+                                                            <span class="font-weight-600">Rutuja Kelkar&nbsp;[
                                                                 7204345706 ]</span> &nbsp; &nbsp;<br> <br>
                                                             <span style="font-weight: 900;"> Entry Fee:</span> <span
-                                                                style="font-weight: 600;"> 100/- </span><br>
+                                                                style="font-weight: 600;"> Free entry </span><br>
                                                             <span style="font-weight: 900;"> No. of participants / Team
                                                                 size (with conditions):</span> <span style="font-weight: 900;">
-                                                                Team event (2 people - the one who wil paint and the
-                                                                other whose face will be painted ). </span> <br>
+                                                                1 </span> <br>
                                                             <span style="font-weight: 900;"> Timing and date of event:</span>
                                                             <span style="font-weight: 600;"> 11:30am on 8th March 2019.
                                                             </span> <br>
                                                             <span style="font-weight: 900;"> No. of prizes:</span>
-                                                            <span style="font-weight: 900;"> 2 </span> <br>
-                                                            <span style="font-weight: 900;"> No. of rounds: </span>
-                                                            <span style="font-weight: 900;"> 2 </span> <br>
+                                                            <span style="font-weight: 900;"> Participation certificate
+                                                                to all participants. </span> <br>
+                                                            <span style="font-weight: 900;"> No. of rounds:</span>
+                                                            <span style="font-weight: 900;"> No rounds</span> <br>
                                         </p><br>
-                                        <h1>Details of event :</h1><br>
-                                        <h3> Round one : Face Xpresso</h3>
                                         <h4>Rules :-</h4>
-                                        1. Team event (2 people - the one who wil paint and the other whose face will
-                                        be painted ).<br>
-                                        2.Themes for face painting : <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->Scary<br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp; ->Joker<br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->Tribal<br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp; -> superhero<br>
-                                        3. Standard time : 1 hour and 15 minutes.
-                                        <b>(There will be an interesting twist)</b><br>
-                                        4. Get your own materials.<br>
-                                        5. The event will start at 11:30 am on 8th March 2019.<br>
-                                        6. Location : Class A001 and A002.<br><br><br>
+                                        1.Participants can get their paintings , sketches and only handmade art to
+                                        exibit.<br>
+                                        2.Each partipant will be provided space to display her/his art.<br>
+                                        3.Participants have to take care of their respective materials.<br>
+                                        4. The event will start at 11:30 am on 8th March 2019.<br>
+                                        5. Participants are requested to assemble at the location sharp at 9:30am on
+                                        8th March 2019 for the arrangements.<br>
 
-                                        <h3>Final round : Depict your scene</h3>
-                                        <h4>Rules :-</h4>
-                                        1.Select a spot in the campus and capture it in your mobile/tablet etc within
-                                        15 minutes.<br>
-                                        2.Depict the captured images on the provided drawing sheet using paints.<br>
-                                        3.Get your own materials .<br>
-                                        4.Time limit :2 hours .<br>
-                                        5.The event will start at 11.30 am on 9th March 2019.<br>
-                                        6. Location : Class A001 and A002.<br><br>
-
-                                        <h4>Instructions :-</h4>
-                                        1.Capture the image and return to the mentioned location.<br>
-                                        2.The captured will be verified by the coordinators.<br>
-
+                                        6.Loacation : Class A001 and A002.<br>
+                                        7.Participation certificate will be given to all participants.<br>
 
                                     </div>
                                 </div>
