@@ -24,58 +24,15 @@
 
     <?php include 'nav.php';?>
     <main>
-        <div class="position-relative">
+    <div class="position-relative">
             <!-- shape Hero -->
-            <section style="background-image:url('img/cse0.png');background-size:contain; background-repeat: no-repeat;background-position: 50% 80px ;background-color:#3a4546;">
+            <section style="background-color:#3a4546;">
                 <div class="shape shape-style-1 shape-default">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                    <img src="img/cse0.png" class="img-fluid" style="margin-top:80px;">
                 </div>
-
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <section class="section section-lg pt-lg-0 mt--150">
             <div class="container">
                 <div class="row justify-content-center">

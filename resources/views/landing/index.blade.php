@@ -17,7 +17,7 @@
     <!-- Argon CSS -->
     <link type="text/css" href="/css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
-    <link type="text/css" href="/css/docs-l.min.css" rel="stylesheet">
+    <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
     <link type="text/css" href="/css/style.css" rel="stylesheet">
 </head>
 
@@ -25,13 +25,13 @@
     @include('landing.nav')
     <main>
         <div class="position-relative">
-            <!-- Hero for FREE version -->
-            <section class="section section-lg section-hero section-shaped" style="background-image: url('/img/mainBanner.jpg');background-color: #080809;">
-                <!-- Background circles -->
-                <div class="shape shape-style-1 shape-primary">
-
+            <!-- shape Hero -->
+            <section style="background-color:#000000;">
+                <div class="shape shape-style-1 shape-default">
+                    <img src="img/mainBanner.jpg" class="img-fluid" style="margin-top:80px;width: 100%">
                 </div>
             </section>
+            <!-- 1st Hero Variation -->
         </div>
     </main>
     <?php include "footer.php" ?>

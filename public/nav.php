@@ -28,14 +28,14 @@
                 <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
-                            <i class="ni ni-ui-04 d-lg-none"></i>
+                            <i class="ni ni-trophy d-lg-none"></i>
                             <span class="nav-link-inner--text">EVENTS</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-xl">
                             <div class="dropdown-menu-inner">
                                 <a href="cs0.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                                        <i class="ni ni-spaceship"></i>
+                                    <div class="icon icon-shape bg-gradient-blue rounded-circle text-white">
+                                        <i class="ni ni-laptop"></i>
                                     </div>
                                     <div class="media-body ml-3">
                                         <h6 class="heading text-primary mb-md-1">Computer Science</h6>
@@ -43,34 +43,34 @@
                                 </a>
                                 <a href="ec0.php" class="media d-flex align-items-center">
                                     <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
-                                        <i class="ni ni-palette"></i>
+                                        <i class="ni ni-bulb-61"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h6 class="heading text-primary mb-md-1">Electronics & Communication</h6>
+                                        <h6 class="heading text-success mb-md-1">Electronics & Communication</h6>
 
                                     </div>
                                 </a>
                                 <a href="ee0.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                                        <i class="ni ni-ui-04"></i>
+                                    <div class="icon icon-shape bg-gradient-danger rounded-circle text-white">
+                                        <i class="ni ni-vector"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h5 class="heading text-warning mb-md-1">Electrical & Electronics</h5>
+                                        <h5 class="heading text-danger mb-md-1">Electrical & Electronics</h5>
 
                                     </div>
                                 </a>
                                 <a href="me0.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                                        <i class="ni ni-ui-04"></i>
+                                    <div class="icon icon-shape bg-gradient-gray rounded-circle text-white">
+                                        <i class="ni ni-settings"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h5 class="heading text-warning mb-md-1">Mechanical Engineering</h5>
+                                        <h5 class="heading text-grey mb-md-1">Mechanical Engineering</h5>
 
                                     </div>
                                 </a>
                                 <a href="cv0.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                                        <i class="ni ni-ui-04"></i>
+                                    <div class="icon icon-shape bg-gradient-orange rounded-circle text-white">
+                                        <i class="ni ni-building"></i>
                                     </div>
                                     <div class="media-body ml-3">
                                         <h5 class="heading text-warning mb-md-1">Civil</h5>
@@ -79,10 +79,10 @@
                                 </a>
                                 <a href="mca0.php" class="media d-flex align-items-center">
                                     <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                                        <i class="ni ni-ui-04"></i>
+                                        <i class="ni ni-tv-2"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h5 class="heading text-warning mb-md-1">mca</h5>
+                                        <h5 class="heading text-warning mb-md-1">MCA</h5>
 
                                     </div>
                                 </a>
@@ -91,7 +91,7 @@
                                         <i class="ni ni-ui-04"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h5 class="heading text-warning mb-md-1">mba</h5>
+                                        <h5 class="heading text-warning mb-md-1">MBA</h5>
 
                                     </div>
                                 </a>
@@ -103,13 +103,13 @@
                 <ul class="navbar-nav align-items-lg-center ml-lg-auto">
 
                     <li class="nav-item d-none d-lg-block ml-lg-4">
-                        <a href="login.php" target="_blank" class="btn btn-outline-success">
+                        <a href="/login" class="btn btn-outline-success">
 
                             <span class="nav-link-inner--text">Login</span>
                         </a>
                     </li>
                     <li class="nav-item d-none d-lg-block ml-lg-4">
-                        <a href="reg.php" target="_blank" class="btn btn-success">
+                        <a href="/register" class="btn btn-success">
 
                             <span class="nav-link-inner--text">register</span>
                         </a>
