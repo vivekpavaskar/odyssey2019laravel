@@ -1,7 +1,7 @@
 <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
         <div class="container">
-            <a class="navbar-brand mr-lg-5" href="../index.html">
+            <a class="navbar-brand mr-lg-5" href="/">
                 <img src="img\brand\blue.png" style="width:50%;height:300%;">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global"
@@ -12,7 +12,7 @@
                 <div class="navbar-collapse-header">
                     <div class="row">
                         <div class="col-6 collapse-brand">
-                            <a href="index.html">
+                            <a href="/">
                                 <img src="img/brand/blue.png">
                             </a>
                         </div>
@@ -98,21 +98,7 @@
                             </div>
                         </div>
                     </li>
-                    <!-- <li class="nav-item dropdown">
-              <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
-                <i class="ni ni-collection d-lg-none"></i>
-                <span class="nav-link-inner--text">Events</span>
-              </a>
-              <div class="dropdown-menu">
-                <a href="cs0.php" class="dropdown-item">CSE</a>
-                <a href="ec0.php" class="dropdown-item">ECE</a>
-                <a href="ee0.php" class="dropdown-item">EEE</a>
-                <a href="me0.php" class="dropdown-item">ME</a>
-                <a href="cv0.php" class="dropdown-item">CIV</a>
-                <a href="mca0.php" class="dropdown-item">MCA</a>
-                <a href="mba0.php" class="dropdown-item">MBA</a>
-              </div>
-            </li> -->
+
                 </ul>
                 <ul class="navbar-nav align-items-lg-center ml-lg-auto">
 
