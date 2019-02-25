@@ -47,7 +47,6 @@
                                     </div>
                                     <div class="media-body ml-3">
                                         <h6 class="heading text-success mb-md-1">Electronics & Communication</h6>
-
                                     </div>
                                 </a>
                                 <a href="ee0.php" class="media d-flex align-items-center">
@@ -56,7 +55,6 @@
                                     </div>
                                     <div class="media-body ml-3">
                                         <h5 class="heading text-danger mb-md-1">Electrical & Electronics</h5>
-
                                     </div>
                                 </a>
                                 <a href="me0.php" class="media d-flex align-items-center">
@@ -65,7 +63,6 @@
                                     </div>
                                     <div class="media-body ml-3">
                                         <h5 class="heading text-grey mb-md-1">Mechanical Engineering</h5>
-
                                     </div>
                                 </a>
                                 <a href="cv0.php" class="media d-flex align-items-center">
@@ -74,7 +71,6 @@
                                     </div>
                                     <div class="media-body ml-3">
                                         <h5 class="heading text-warning mb-md-1">Civil</h5>
-
                                     </div>
                                 </a>
                                 <a href="mca0.php" class="media d-flex align-items-center">
@@ -83,16 +79,30 @@
                                     </div>
                                     <div class="media-body ml-3">
                                         <h5 class="heading text-cyan mb-md-1">MCA</h5>
-
                                     </div>
                                 </a>
                                 <a href="cultural.php" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-green rounded-circle text-white">
+                                        <i class="ni ni-note-03"></i>
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5 class="heading text-green mb-md-1">Cultural</h5>
+                                    </div>
+                                </a>
+                                <a href="mba0.php" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-gradient-pink rounded-circle text-white">
+                                        <i class="ni ni-collection"></i>
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5 class="heading text-pink mb-md-1">MBA</h5>
+                                    </div>
+                                </a>
+                                <a href="dip0.php" class="media d-flex align-items-center">
                                     <div class="icon icon-shape bg-gradient-pink rounded-circle text-white">
                                         <i class="ni ni-istanbul"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h5 class="heading text-pink mb-md-1">Cultural</h5>
-
+                                        <h5 class="heading text-pink mb-md-1">Diploma</h5>
                                     </div>
                                 </a>
                             </div>
@@ -122,22 +132,18 @@
 
                 </ul>
             </li> -->
-                        <li class="nav-item open-btn">
-                            <a href="/login"> <button class="btn bg-gradient-orange">Login</button></a>
-                            <!-- <a  href="/register"> <button class="btn bg-gradient-success">Register</button></a> -->
-                        </li>
-                        <li class="nav-item open-btn">
-                            <!-- <a  href="/login"> <button class="btn bg-gradient-orange">Login</button></a> -->
-                            <a href="/register"> <button class="btn bg-gradient-success">Register</button></a>
-                        </li>
-                        <li class="nav-item close-btn">
-                            <a href="/login"> <button class="btn bg-gradient-orange">Login</button></a>
-                            <!-- <a  href="/register"> <button class="btn bg-gradient-success">Register</button></a> -->
-                        </li>
-                        <li class="nav-item close-btn">
-                            <!-- <a  href="/login"> <button class="btn bg-gradient-orange">Login</button></a> -->
-                            <a href="/register"> <button class="btn bg-gradient-success">Register</button></a>
-                        </li>
+                    <li class="nav-item open-btn">
+                        <a href="/login"> <button class="btn bg-gradient-orange">Login</button></a>
+                    </li>
+                    <li class="nav-item open-btn">
+                        <a href="/register"> <button class="btn bg-gradient-success">Register</button></a>
+                    </li>
+                    <li class="nav-item close-btn">
+                        <a href="/login"> <button class="btn bg-gradient-orange">Login</button></a>
+                    </li>
+                    <li class="nav-item close-btn">
+                        <a href="/register"> <button class="btn bg-gradient-success">Register</button></a>
+                    </li>
                 </ul>
             </div>
         </div>

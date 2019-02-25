@@ -18,7 +18,7 @@
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
-    <link type="text/css" href="/css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
             <!-- shape Hero -->
             <section style="background-color:#3a4546;">
                 <div class="shape shape-style-1 shape-default">
-                    <img src="img/mb.jpg" class="img-fluid" style="margin-top:80px;">
+                    <img src="img/cv2.png" class="img-fluid" style="margin-top:80px;">
                 </div>
             </section>
             <!-- 1st Hero Variation -->
@@ -41,6 +41,7 @@
                             <div class="col-lg-12">
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
+                                        <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
                                         <h6 class="text-primary text-uppercase"><b>Non Technical Event </b></h6>
                                         </h6><br>
                                         <p><b><span class="font-weight-900">Event code :</span></b><span class="font-weight-600">CV1</span>
@@ -88,7 +89,7 @@
     <script src="vendor/bootstrap/bootstrap.min.js"></script>
     <script src="vendor/headroom/headroom.min.js"></script>
     <!-- Argon JS -->
-  <script src="js/argon-l.js?v=1.0.1"></script>
+    <script src="js/argon-l.js?v=1.0.1"></script>
 </body>
 
 </html>

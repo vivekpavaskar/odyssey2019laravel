@@ -18,17 +18,17 @@
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
-    <link type="text/css" href="/css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <?php include 'nav.php';?>
     <main>
-    <div class="position-relative">
+        <div class="position-relative">
             <!-- shape Hero -->
-            <section style="background-color:#3a4546;">
+            <section style="background-color:#1b1b1b;">
                 <div class="shape shape-style-1 shape-default">
-                    <img src="img/mb.jpg" class="img-fluid" style="margin-top:80px;">
+                    <img src="img/me2.jpg" class="img-fluid" style="margin-top:80px;">
                 </div>
             </section>
             <!-- 1st Hero Variation -->
@@ -41,6 +41,7 @@
                             <div class="col-lg-12">
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
+                                        <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
                                         <h6 class="text-primary text-uppercase"> <b>Event 2:</b></h6><br>
                                         <p> <span style="font-weight: 900;">Event Code: </span> <span style="font-weight: 600;">
                                                 ME2</span><br>
@@ -48,13 +49,13 @@
                                                 CrossFit </span><br>
                                             <br>
                                             <span style="font-weight: 900;">Student Coordinator 1:</span> <span style="font-weight: 600;">
-                                                Abhishek Kadolkar </span>
-                                            <br> <span style="font-weight: 900;">Mobile Number:</span> <span style="font-weight: 600;">
-                                                9449596445 </span> <br>
+                                                Abhishek Kadolkar&nbsp;[ 9449596445 ] </span>
+                                            <span style="font-weight: 600;">
+                                            </span>
                                             <br><span style="font-weight: 900;">Student Coordinator 2:</span> <span
-                                                style="font-weight: 600;"> Ninad Patil </span> <br>
-                                            <span style="font-weight: 900;">Mobile Number:</span> <span style="font-weight: 600;">
-                                                8762279214 </span>
+                                                style="font-weight: 600;"> Ninad Patil&nbsp;[ 8762279214 ] </span> <br>
+                                            <span style="font-weight: 600;">
+                                            </span>
                                         </p>
                                         <p>
                                             <span style="font-weight: 900;">No. of rounds:</span> <span style="font-weight: 600;">

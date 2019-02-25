@@ -18,17 +18,17 @@
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
-    <link type="text/css" href="/css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <?php include 'nav.php';?>
     <main>
-    <div class="position-relative">
+        <div class="position-relative">
             <!-- shape Hero -->
-            <section style="background-color:#3a4546;">
+            <section style="background-color:#67492c;">
                 <div class="shape shape-style-1 shape-default">
-                    <img src="img/mb.jpg" class="img-fluid" style="margin-top:80px;">
+                    <img src="img/cul0.jpg" class="img-fluid" style="margin-top:80px;">
                 </div>
             </section>
             <!-- 1st Hero Variation -->
@@ -54,8 +54,8 @@
                 </div>
             </div>
         </section>
-        <br><br><br><br><br><br><br><br>
-        <section class="section section-lg pt-lg-0 mt--200">
+
+        <section class="section section-lg pt-lg-0 mt--10">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -66,7 +66,7 @@
 
                                         <h6 class="text-primary text-uppercase"><b>Face painting</b></h6>
                                         </h6><br>
-                                        <p> <span style="font-weight: 900;"> Event code:</span> <span style="font-weight: 600;"></span>
+                                        <p> <span style="font-weight: 900;"> Event code:</span> <span style="font-weight: 600;">GE5</span>
                                             <br>
                                             <span style="font-weight: 900;"> Event name:</span> <span style="font-weight: 600;">
                                                 ArtPhoria </span><br>
@@ -94,8 +94,8 @@
                 </div>
             </div>
         </section>
-        <br><br><br><br><br><br>
-        <section class="section section-lg pt-lg-0 mt--200">
+
+        <section class="section section-lg pt-lg-0 mt--10">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -106,7 +106,7 @@
 
                                         <h6 class="text-primary text-uppercase"> <b> Art exhibition &nbsp;&nbsp;[ Only
                                                 for Jain college of engineering students ]</b></h6><br>
-                                        <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;">
+                                        <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;">GE5
                                             </span> <br>
                                             <span style="font-weight: 900;"> Event Name:</span> <span style="font-weight: 600;">Art
                                                 Collectanea.</span><br>
@@ -130,8 +130,8 @@
                 </div>
             </div>
         </section>
-        <br><br><br><br><br><br>
-        <section class="section section-lg pt-lg-0 mt--200">
+
+        <section class="section section-lg pt-lg-0 mt--10">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -141,10 +141,9 @@
                                     <div class="card-body py-5">
 
                                         <h6 class="text-primary text-uppercase"> <b> Singing </b></h6><br>
-                                        <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;">
+                                        <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;">GE-1
                                             </span> <br>
-                                            <span style="font-weight: 900;"> Event Name:</span> <span style="font-weight: 600;">Honeysing(Solo
-                                                Singing)</span><br>
+                                            <span style="font-weight: 900;"> Event Name:</span> <span style="font-weight: 600;">Cutthroat</span><br>
                                             <span style="font-weight: 900;">No. of rounds:</span> <span style="font-weight: 600;">
                                                 No rounds </span> <br>
                                             <span style="font-weight: 900;"> Entry Fee:</span> <span style="font-weight: 600;">
@@ -165,8 +164,8 @@
                 </div>
             </div>
         </section>
-        <br><br><br><br><br><br>
-        <section class="section section-lg pt-lg-0 mt--200">
+
+        <section class="section section-lg pt-lg-0 mt--10">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -176,7 +175,7 @@
                                     <div class="card-body py-5">
 
                                         <h6 class="text-primary text-uppercase"> <b> Fashion show </b></h6><br>
-                                        <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;">
+                                        <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;">GE3
                                             </span> <br>
                                             <span style="font-weight: 900;"> Event Name:</span> <span style="font-weight: 600;">Fashion
                                                 Fiesta</span><br>
@@ -202,8 +201,8 @@
                 </div>
             </div>
         </section>
-        <br><br><br><br><br><br>
-        <section class="section section-lg pt-lg-0 mt--200">
+
+        <section class="section section-lg pt-lg-0 mt--10">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -213,7 +212,7 @@
                                     <div class="card-body py-5">
 
                                         <h6 class="text-primary text-uppercase"> <b> Group dance </b></h6><br>
-                                        <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;">
+                                        <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;">GE2
                                             </span> <br>
                                             <span style="font-weight: 900;"> Event Name:</span> <span style="font-weight: 600;">Movology(Group
                                                 Dance Event)</span><br>
@@ -238,8 +237,8 @@
                 </div>
             </div>
         </section>
-        <br><br><br><br><br><br>
-        <section class="section section-lg pt-lg-0 mt--200">
+
+        <section class="section section-lg pt-lg-0 mt--10">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -249,7 +248,7 @@
                                     <div class="card-body py-5">
 
                                         <h6 class="text-primary text-uppercase"> <b> Short flim </b></h6><br>
-                                        <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;">
+                                        <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;">GE4
                                             </span> <br>
                                             <span style="font-weight: 900;"> Event Name:</span> <span style="font-weight: 900;">24
                                                 Frames</span><br>

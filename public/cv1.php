@@ -18,7 +18,7 @@
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
-    <link type="text/css" href="/css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     <main>
         <div class="position-relative">
             <!-- shape Hero -->
-            <section style="background-color:#3a4546;">
+            <section style="background-color:#0121ff;">
                 <div class="shape shape-style-1 shape-default">
                     <img src="img/cv1.png" class="img-fluid" style="margin-top:80px;">
                 </div>
@@ -42,6 +42,7 @@
                             <div class="col-lg-12">
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
+                                        <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
                                         <h6 class="text-primary text-uppercase"><b>Technical Event </b></h6>
                                         </h6><br>
                                         <p><b><span class="font-weight-900">Event code :</span></b><span class="font-weight-900">CV1</span>

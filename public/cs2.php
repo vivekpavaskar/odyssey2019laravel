@@ -18,16 +18,16 @@
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
-    <link type="text/css" href="/css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
     <?php include 'nav.php';?>
     <main>
-    <div class="position-relative">
+        <div class="position-relative">
             <!-- shape Hero -->
-            <section style="background-color:#3a4546;">
+            <section style="background-color:#310204;">
                 <div class="shape shape-style-1 shape-default">
                     <img src="img/cs2.png" class="img-fluid" style="margin-top:80px;">
                 </div>
@@ -43,44 +43,69 @@
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
                                         <h6 class="text-primary text-uppercase"><b></b></h6><br>
-                                        <h1> Details of event:</h1>
-                                        <h4>General Rules</h4>
-                                        1.No using mobile phones and other electronic devices.<br>
-                                        2.Any kind of cheating will lead to disqualification.<br>
-                                        3.Participants should report on time, late entry will not be entertained.<br>
-                                        4.Decision taken by the co-ordinators / volunteers will be final.<br>
-                                        5.Participants can only use c programming.<br>
-                                        6.In case of more participants there will be quiz round.<br>
-                                        <br>
-                                        <br>
-                                        <h5>Round 1:Yeh Karke Dikhao</h5>
-                                        Time Duration: 45 mins<br>
-                                        1.This is time based round.<br>
-                                        2.The participants will be given set of questions which they have to solve
-                                        within the given time.<br>
-                                        3.Only the first teams to execute the round will be able to make it to the next
-                                        round.<br>
-                                        <br>
-                                        <br>
+                                        <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
+                                        <h6 class="text-primary text-uppercase"><b>Event 2 :</b></h6>
+                                        </h6><br>
+                                        <p><b><span class="font-weight-900">Event code :&nbsp;</span><span class="font-weight-600">CS02</span></b>
+                                            <br>
+                                            <span class="font-weight-900">Event name :</span><span class="font-weight-600">LAN
+                                                Gaming (Counter Strike),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAN
+                                                Gaming (PUBG)
+                                            </span>
+                                            <br>
+                                            <br>
+                                            <span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;<span
+                                                class="font-weight-600"> Nitin Sabale &nbsp;[ 8105798127 ]
+                                                <br>
+                                                <span class="font-weight-900">Student Coordinator 2:</span>&nbsp;&nbsp;
+                                                <span class="font-weight-600">Nikita Oulkar &nbsp;[ 7875226272 ]</span>
+                                                &nbsp; &nbsp;<br>
+                                                <br>
+                                                <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600">&nbsp;100/-</span><br>
+                                                <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
+                                                    class="font-weight-600"></span> 4</span><br>
+                                            <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
+                                            <span class="font-weight-600">8th and 9th March </span><br>
+                                            <h1> Details of event:</h1><br>
+                                            <h5> <b>Rules:</b>&nbsp;<br>LAN Gaming(Counter strike)</h5>
+                                            • Each team must have 4 players.<br>
+                                            • Starting money will be $800 for first round.<br>
+                                            • Maps & Rounds will announced by the coordinators at the time of event.<br>
+                                            • All members should bring their own Mouse & Headphones.<br>
+                                            • All scripts are illegal, if found team will be disqualified.<br>
+                                            • We are not liable for anything that happens to your equipments.<br>
+                                            • Rules can be changed if necessary by the coordinator which will be
+                                            informed prior.<br>
+                                            • Coordinators decision will be considered as the final decision. <br>
+                                            <b>No. of rounds :Knockout</b><br><br><br>
 
-                                        <h5>Round 2:Chakravyuha</h5>
-                                        1.There will be a problem statement with syntax errors.<br>
-                                        2.Each problem statement will end up with a hint for next statement.<br>
-                                        3.The output will be path and the key to the file, to next problem statement on
-                                        debugging the code.<br>
-                                        4.This round is time based(45 min.)<br>
-                                        <br>
-                                        <br>
-                                        <h5>Round 3: Code Bhulaiya</h5>
-                                        NO OF TEAMS : 4 teams
-                                        DURATION : 1.5 hrs
-                                        <br>
-                                        1.All the four teams participating in this round will have to download the
-                                        odyssey app.<br>
-                                        2.To unlock this round you have to make through all the rounds.<br>
-                                        Rules for this round will be told on spot.
+                                            <h5> <b>Rules:</b>&nbsp;<br>LAN Gaming (PUBG)</h5>
+                                            • Each Squad must have 4 players.<br>
+                                            • Maps will be announced by the coordinators at the time of event.<br>
+                                            • Players must give their PUBG Nickname game ID along with their name
+                                            during registration.<br>
+                                            • All the participating players must be present at the venue on time.<br>
+                                            • Rounds : Elimination & Final Round<br>
+                                            • Elimination round matches will be scheduled at following timings on first
+                                            day.<br>
+                                            1. 10.30 am<br>
+                                            2. 11.30 am<br>
+                                            3. 1.30 pm<br>
+                                            4. 2.30 pm<br>
+                                            • Players need to connect given room within given duration.<br>
+                                            • All players must install the updated version of the game and should have
+                                            all maps properly downloaded.<br>
+                                            • Each player must have their own mobile device fully charged with Internet
+                                            as no charging slot will be provided.<br>
+                                            • Players can use only the earphones and no other equipment will be allowed
+                                            such as triggers.<br>
+                                            • Internet lag and game lag will be on participant’s risk.<br>
+                                            • Students must use their own internet data in case if the internet speed
+                                            is slow.<br>
 
-                                        </p>
+
+
+
 
                                     </div>
                                 </div>

@@ -18,22 +18,22 @@
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
-    <link type="text/css" href="/css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <?php include 'nav.php';?>
     <main>
-    <div class="position-relative">
+        <div class="position-relative">
             <!-- shape Hero -->
-            <section style="background-color:#3a4546;">
+            <section style="background-color:#67492c;">
                 <div class="shape shape-style-1 shape-default">
-                    <img src="img/mb.jpg" class="img-fluid" style="margin-top:80px;">
+                    <img src="img/cul0.jpg" class="img-fluid" style="margin-top:80px;">
                 </div>
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section section-lg pt-lg-0 mt--150">
+        <section class="section section-lg pt-lg-0 mt--10">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -41,11 +41,11 @@
                             <div class="col-lg-12">
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
-                                        <!--<div class="icon icon-shape icon-shape-primary rounded-circle mb-4"> -->
-                                        <!-- <i class="ni ni-check-bold"></i>
-                    </div> -->
+
+
+                                        <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
                                         <h6 class="text-primary text-uppercase"> Group Dance </h6><br>
-                                        <b><span class="font-weight-900">Event code</b> :</span>
+                                        <b><span class="font-weight-900">Event code</b> :</span><span class="font-weight-600">&nbsp;GE2</span>
                                         <br>
                                         <b><span class="font-weight-900">Event name :</span>&nbsp;&nbsp;<span class="font-weight-600">Movology
                                                 (Group Dance Event)</span></b>
@@ -58,17 +58,14 @@
                                                 class="font-weight-600"> Prof. Balasaheb. J </span></b>
                                         <br><br>
                                         <span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;<span
-                                            class="font-weight-600"> Kaustubh. S. Naik </span> &nbsp; &nbsp;<br> <span
-                                            class="font-weight-900">Mobile number:</span>&nbsp;&nbsp;<span class="font-weight-600">
-                                            9380702046 </span>
-                                        <br>
+                                            class="font-weight-600"> Kaustubh. S. Naik &nbsp;[ 9380702046 ]</span>
+                                        &nbsp; &nbsp;<br>
+
                                         <span class="font-weight-900">Student Coordinator 2:</span>&nbsp;&nbsp; <span
-                                            class="font-weight-600"> Chetan. P. Khot </span> &nbsp;&nbsp;<br> <span
-                                            class="font-weight-900">Mobile number:</span>&nbsp;&nbsp;<span class="font-weight-600">
-                                            7847975754 </span>
-                                        <br><br>
+                                            class="font-weight-600"> Chetan. P. Khot&nbsp;[ 7847975754 ] </span>
+                                        &nbsp;&nbsp;<br>
                                         <br>
-                                        <h1> Details of event:</h1>
+
                                         <span class="font-weight-900" style="color:red;">Audition Date: </span>&nbsp;<span
                                             class="font-weight-600"> 07th March 2019 at 2pm </span><br>
                                         <span class="font-weight-900" style="color:red;">Audition Location: </span>&nbsp;<span
@@ -84,6 +81,7 @@
                                         <span class="font-weight-900">Number of prizes: </span>&nbsp;<span class="font-weight-600">
                                             02 </span><br>
                                         <br>
+                                        <h1> Details of event:</h1>
                                         <h5>Rules:</h5>
 
                                         1. Time limit is 08 minutes (Max) for each performance. Negative marking for

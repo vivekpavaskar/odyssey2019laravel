@@ -18,7 +18,7 @@
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
-    <link type="text/css" href="/css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
     <main>
     <div class="position-relative">
             <!-- shape Hero -->
-            <section style="background-color:#3a4546;">
+            <section style="background-color:#28322a;">
                 <div class="shape shape-style-1 shape-default">
                     <img src="img/ec2.jpg" class="img-fluid" style="margin-top:80px;">
                 </div>
@@ -41,25 +41,24 @@
                             <div class="col-lg-12">
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
+                                    <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
                                         <h6 class="text-primary text-uppercase"><b>Event 2:</b></h6><br>
-                                        <b><span class="font-weight-900">Event code</b> :</span>
+                                        <b><span class="font-weight-900">Event code</b> :</span><span class="font-weight-600">&nbsp;EC02</span>
                                         <br>
                                         <b><span class="font-weight-900">Event name :</span>&nbsp;&nbsp;<span class="font-weight-600">Tesoro
                                                 Hunt</span></b>
                                         <br>
                                         <br>
                                         <b><span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;
-                                            <span class="font-weight-600">Simon Jha</span></b> &nbsp; &nbsp;<br> <b>Mobile
-                                            number: 7022539822</b>
-                                        <br><br>
+                                            <span class="font-weight-600">Simon Jha&nbsp;[ 7022539822 ]</span></b> &nbsp; &nbsp;
+                                        <br>
                                         <b><span class="font-weight-900">Student Coordinator 2: </span>&nbsp;&nbsp;<span
-                                                class="font-weight-600">Tanuja Patil</span></b> &nbsp; &nbsp; <br><b>Mobile
-                                            number: 9008912942 <br><br>
-                                            <span class="font-weight-900">Entry Fee :</span>&nbsp;&nbsp; <span class="font-weight-600"></span><br>
+                                                class="font-weight-600">Tanuja Patil&nbsp;[ 9916023938 ]</span></b> &nbsp; &nbsp;  <br><br>
+                                            <span class="font-weight-900">Entry Fee :</span>&nbsp;&nbsp; <span class="font-weight-600">200/-</span><br>
                                             <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
                                                 class="font-weight-600">Maximum 4</span></b><br>
                                         <b><span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;<span
-                                                class="font-weight-600"> 11AM onwards on 8th and 9th March</span><br>
+                                                class="font-weight-600"> 8th and 9th March</span><br>
                                         </b>
                                         <br>
                                         <br>
@@ -82,14 +81,6 @@
                                         1st Stage: Game name->find the code for the locked partner <br>
                                         2nd Stage: Track the map given fetch the flags, reach destination and hit the
                                         buzzer button(Max of 3-4 teams for this stage)<br>
-
-
-
-
-
-
-
-
 
                                     </div>
                                 </div>

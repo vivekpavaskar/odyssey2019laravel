@@ -18,15 +18,15 @@
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
-    <link type="text/css" href="/css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <?php include 'nav.php';?>
     <main>
-    <div class="position-relative">
+        <div class="position-relative">
             <!-- shape Hero -->
-            <section style="background-color:#3a4546;">
+            <section style="background-color:#011031;">
                 <div class="shape shape-style-1 shape-default">
                     <img src="img/ee2.jpg" class="img-fluid" style="margin-top:80px;">
                 </div>
@@ -41,9 +41,10 @@
                             <div class="col-lg-12">
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
+                                        <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
                                         <h6 class="text-primary text-uppercase"><b>Non Technical Event </b></h6>
                                         </h6><br>
-                                        <p><b><span class="font-weight-900">Event code :</span></b><span class="font-weight-900">EE02</span>
+                                        <p><b><span class="font-weight-900">Event code :</span></b><span class="font-weight-600">&nbsp;EE02</span>
                                             <br>
                                             <span class="font-weight-900">Event name :</span><span class="font-weight-600">&nbsp;&nbsp;Scary
                                                 House</span><br>
@@ -61,9 +62,9 @@
                                             <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
                                                 class="font-weight-600">2 participants in a team.</span><br>
 
-                                            <span class="font-weight-900">No. of rounds:</span><span class="font-weight-600">01</span><br>
+                                            <span class="font-weight-900">No. of rounds:</span><span class="font-weight-600">&nbsp;01</span><br>
                                             <span class="font-weight-900">No. of prizes:</span><span class="font-weight-600">
-                                                01</span> <br>
+                                                &nbsp; 01</span> <br>
                                             <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
                                             <span class="font-weight-600">9.00am-4.00pm / 8th -9th march
 

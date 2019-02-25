@@ -18,7 +18,7 @@
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
-    <link type="text/css" href="/css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
 
 </head>
 
@@ -43,7 +43,8 @@
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
                                         <h6 class="text-primary text-uppercase"><b>Computer Science And Engineering</b></h6><br>
-                                        <p><span class="font-weight-900">Department Coordinator :</span><span class="font-weight-600">Mahantesh
+                                        <p><span class="font-weight-900">Department Coordinator :&nbsp;</span><span
+                                                class="font-weight-600">Mahantesh
                                                 Laddi</span>
                                             <br>
                                         </p>
@@ -55,7 +56,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section-lg pt-lg-0">
+        <section class="section section-lg pt-lg-0 mt--10">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -65,17 +66,19 @@
                                     <div class="card-body py-5">
                                         <h6 class="text-primary text-uppercase"><b>Event 1 :</b></h6>
                                         </h6><br>
-                                        <p><b><span class="font-weight-900">Event code :</span></b>
+                                        <p><b><span class="font-weight-900">Event code :&nbsp;</span><span class="font-weight-600">CS01</span></b>
                                             <br>
                                             <span class="font-weight-900">Event name :</span><span class="font-weight-600">&nbsp;&nbsp;Mystery
                                                 Code</span>
                                             <br>
 
-                                            <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600"></span><br>
+                                            <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600">100/-</span><br>
                                             <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
                                                 class="font-weight-600">2</span><br>
                                             <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
-                                            <span class="font-weight-600">11AM onwards on 8th and 9th March</span>
+                                            <span class="font-weight-600">8th march 2019(10:00 am-4:00 pm ) <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                9th march 2019(10:00 am to 1:00 pm). </span>
                                         </p><br>
                                         <a href="cs1.php" class="btn btn-primary mt-4">Read more</a>
                                     </div>
@@ -87,7 +90,7 @@
             </div>
         </section>
 
-        <section class="section section-lg pt-lg-0 mt--95">
+        <section class="section section-lg pt-lg-0 mt--100">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -96,16 +99,18 @@
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
                                         <h6 class="text-primary text-uppercase"><b>Event 2:</b></h6><br>
-                                        <b><span class="font-weight-900">Event code</b> :</span>
+                                        <b><span class="font-weight-900">Event code</b> :</span><span class="font-weight-600">CS02</span>
                                         <br>
-                                        <b><span class="font-weight-900">Event name :</span>&nbsp;&nbsp;<span class="font-weight-600">Tesoro
+                                        <b><span class="font-weight-900">Event name :</span>&nbsp;&nbsp;<span class="font-weight-600">LAN
+                                                Gaming (Counter Strike),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAN
+                                                Gaming (PUBG)
                                                 Hunt</span></b>
                                         <br>
-                                        <b><span class="font-weight-900">Entry Fee :</span><br>
+                                        <b><span class="font-weight-900">Entry Fee :</span><span class="font-weight-600">&nbsp;Rs.200</span><br>
                                             <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
-                                                class="font-weight-600">Maximum 4</span></b><br>
+                                                class="font-weight-600">4</span></b><br>
                                         <b><span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;<span
-                                                class="font-weight-600"> 11AM onwards on 8th and 9th March</span><br>
+                                                class="font-weight-600"> 8th 9th March </span><br>
                                         </b>
                                         <a href="cs2.php" class="btn btn-primary mt-4">Read more</a>
                                     </div>

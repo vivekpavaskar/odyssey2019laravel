@@ -18,16 +18,16 @@
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
-    <link type="text/css" href="/css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
     <?php include 'nav.php';?>
     <main>
-    <div class="position-relative">
+        <div class="position-relative">
             <!-- shape Hero -->
-            <section style="background-color:#3a4546;">
+            <section style="background-color:#221c6c;">
                 <div class="shape shape-style-1 shape-default">
                     <img src="img/ec1.jpg" class="img-fluid" style="margin-top:80px;">
                 </div>
@@ -42,28 +42,29 @@
                             <div class="col-lg-12">
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
+                                        <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
                                         <h6 class="text-primary text-uppercase"><b>Event 1 :</b></h6>
                                         </h6><br>
-                                        <p><b><span class="font-weight-900">Event code :</span></b>
+                                        <p><b><span class="font-weight-900">Event code :</span><span class="font-weight-600">&nbsp;EC01</span></b>
                                             <br>
                                             <span class="font-weight-900">Event name :</span><span class="font-weight-600">&nbsp;&nbsp;Robo
                                                 Mania</span>
                                             <br>
                                             <br>
                                             <span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;<span
-                                                class="font-weight-600"> Meheran Mujhawar</span>&nbsp; &nbsp; <br><b><span
-                                                    class="font-weight-900">Mobile number:</span> <span class="font-weight-600">9483946757</span>
-                                                <br><br>
+                                                class="font-weight-600"> Meheran Mujhawar&nbsp;[ 9483946757 ]</span>&nbsp;
+                                            &nbsp; <br><b>
+
                                                 <span class="font-weight-900">Student Coordinator 2:</span>&nbsp;&nbsp;
-                                                <span class="font-weight-600">Vijay Patil</span> &nbsp; &nbsp;<br>
-                                                <span class="font-weight-900">Mobile number:</span>&nbsp;&nbsp;<span
-                                                    class="font-weight-900"> 8073158108</span> <br><br>
+                                                <span class="font-weight-600">Vijay Patil&nbsp;[ 8073158108 ]</span>
+                                                &nbsp; &nbsp;<br>
+                                                <br>
                                                 <span class="font-weight-900">Entry Fee :</span>&nbsp;&nbsp; <span
-                                                    class="font-weight-600"></span><br>
+                                                    class="font-weight-600">100/-</span><br>
                                                 <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
                                                     class="font-weight-600">2</span><br>
                                                 <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
-                                                <span class="font-weight-600">11AM onwards on 8th and 9th March</span>
+                                                <span class="font-weight-600"> 8th and 9th March</span>
                                         </p><br>
                                         <h1> Details of event:</h1>
                                         <h4>Tasks</h4>
@@ -117,14 +118,14 @@
                 </div>
             </div>
         </section>
-    <?php include "footer.php";?>
-    <!-- Core -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/bootstrap.min.js"></script>
-    <script src="vendor/headroom/headroom.min.js"></script>
-    <!-- Argon JS -->
-    <script src="js/argon-l.js?v=1.0.1"></script>
+        <?php include "footer.php";?>
+        <!-- Core -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/popper/popper.min.js"></script>
+        <script src="vendor/bootstrap/bootstrap.min.js"></script>
+        <script src="vendor/headroom/headroom.min.js"></script>
+        <!-- Argon JS -->
+        <script src="js/argon-l.js?v=1.0.1"></script>
 </body>
 
 </html>
