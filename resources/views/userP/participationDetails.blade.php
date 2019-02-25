@@ -15,6 +15,7 @@
                 <table class="table align-items-center table-flush">
                     <thead class="thead-light">
                         <tr>
+                            <th scope="col">Reg No.</th>
                             <th scope="col">Event Code</th>
                             <th scope="col">Event Name</th>
                             <th scope="col">Team</th>
@@ -26,8 +27,11 @@
                         @foreach ($participations as $p)
                         <tr>
                             <th scope="row">
-                                {{ $p->ecode }}
+                                {{ sprintf("R-%04s",$p->id) }}
                             </th>
+                            <td>
+                                {{ $p->ecode }}
+                            </td>
                             <td>
                                 {{ $p->event }}
                             </td>
@@ -40,7 +44,7 @@
                         </tr>
                         @endforeach
                         @else
-                            No Participations Yet!!
+                        No Participations Yet!!
                         @endif
                     </tbody>
                 </table>

@@ -13,7 +13,7 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="ni ni-zoom-split-in"></i></span>
                             </div>
-                            <input id="myInput" onkeyup="searchMobile()" class="form-control" placeholder="Search mobile number"
+                            <input id="myInput" onkeyup="searchMobile()" class="form-control" placeholder="Search by mobile number"
                                 type="text">
                         </div>
                     </div>
@@ -24,11 +24,13 @@
                 <table id="pdetails" class="table align-items-center table-flush">
                     <thead class="thead-light">
                         <tr>
+                            <th scope="col">Reg No.</th>
                             <th scope="col">Time</th>
                             <th scope="col">Name</th>
                             <th scope="col">Mobile</th>
                             <th scope="col">Event Code</th>
                             <th scope="col">Payment Status</th>
+                            <th scope="col">Receipt No.</th>
                             <th scope="col"></th>
                         </tr>
                     </thead>
@@ -37,8 +39,11 @@
                         @foreach ($participants as $p)
                         <tr>
                             <th scope="row">
-                                {{ \Carbon\Carbon::parse($p->created_at)->diffForHumans() }}
+                                {{ sprintf("R-%04s",$p->id) }}
                             </th>
+                            <td>
+                                {{ \Carbon\Carbon::parse($p->created_at)->diffForHumans() }}
+                            </td>
                             <td>
                                 {{ $p->fname }} {{ $p->lname }}
                             </td>
@@ -51,17 +56,24 @@
                             <td>
                                 {{ $p->payment }}
                             </td>
-                            <td>
                                 @if ($p->payment == "Confirmed")
-                                <input type="submit" value="Paid" class="btn btn-danger" disabled>
+                                <td>
+                                    {{ $p->receipt }}
+                                </td>
+                                <td>
+                                    <input type="submit" value="Paid" class="btn btn-primary" disabled>
+                                </td>
                                 @else
                                 <form action="/payment/{{ $p->id }}" method="post">
                                     @csrf
-                                    <input type="submit" value="Paid" class="btn btn-success">
+                                    <td>
+                                        <input type="text" name="receipt" placeholder="Receipt No." class="form-control" required>
+                                    </td>
+                                    <td>
+                                        <input type="submit" value="Paid" class="btn btn-success">
+                                    </td>
                                 </form>
                                 @endif
-
-                            </td>
                         </tr>
                         @endforeach
                         @else
@@ -84,7 +96,7 @@
 
         // Loop through all table rows, and hide those who don't match the search query
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[1];
+            td = tr[i].getElementsByTagName("td")[2];
             if (td) {
                 txtValue = td.textContent || td.innerText;
                 if (txtValue.toUpperCase().indexOf(filter) > -1) {
