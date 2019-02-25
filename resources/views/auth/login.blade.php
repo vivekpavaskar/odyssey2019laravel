@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
     <meta name="author" content="Creative Tim">
-    <title>Argon Design System - Free Design System for Bootstrap 4</title>
+    <title>Odyssey 2K19</title>
     <!-- Favicon -->
     <link href="/img/brand/favicon.png" rel="icon" type="image/png">
     <!-- Fonts -->
@@ -18,6 +18,7 @@
     <link type="text/css" href="/css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
+    <link type="text/css" href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>

@@ -18,6 +18,7 @@
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="css/docs.min.css" rel="stylesheet">
+    <link type="text/css" href="css/style.min.css" rel="stylesheet">
 </head>
 
 <body>

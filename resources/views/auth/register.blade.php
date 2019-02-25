@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
     <meta name="author" content="Creative Tim">
-    <title>Argon Design System - Free Design System for Bootstrap 4</title>
+    <title>Odyssey 2K19</title>
     <!-- Favicon -->
     <link href="/img/brand/favicon.png" rel="icon" type="image/png">
     <!-- Fonts -->
@@ -18,6 +18,7 @@
     <link type="text/css" href="/css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
+    <link type="text/css" href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -104,25 +105,25 @@
                                     <div class="form-group">
                                         <div class="input-group input-group-alternative mb-3">
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
+                                                <span class="input-group-text"><i class="ni ni-mobile-button"></i></span>
                                             </div>
-                                            <input name="mobile" class="form-control" placeholder="Mobile" type="text" required>
+                                            <input name="mobile" class="form-control" placeholder="Mobile" type="text" pattern="[0-9]*" maxlength="10" required>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="input-group input-group-alternative mb-3">
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
+                                                <span class="input-group-text"><i class="ni ni-badge"></i></span>
                                             </div>
-                                            <input name="usn" class="form-control" placeholder="USN" type="text" required>
+                                            <input name="usn" class="form-control" placeholder="USN" type="text" maxlength="10" required>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="input-group input-group-alternative mb-3">
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
+                                                <span class="input-group-text"><i class="ni ni-books"></i></span>
                                             </div>
-                                            <input name="sem" class="form-control" placeholder="Semester" type="text" required>
+                                            <input name="sem" class="form-control" placeholder="Semester" type="number" min="1" max="8" required>
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -136,43 +137,28 @@
                                     <div class="form-group">
                                         <div class="input-group input-group-alternative mb-3">
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
-                                            </div>
-                                            <input name="email" class="form-control" placeholder="E-Mail Address" type="text" required>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="input-group input-group-alternative mb-3">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
-                                            </div>
-                                            <input name="password" class="form-control" placeholder="Password" type="text" required>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="input-group input-group-alternative mb-3">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
-                                            </div>
-                                            <input name="password_confirmation" class="form-control" placeholder="Confirm Password" type="text" required>
-                                        </div>
-                                    </div>
-                                    {{-- <div class="form-group">
-                                        <div class="input-group input-group-alternative mb-3">
-                                            <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Email" type="email">
+                                            <input name="email" class="form-control" placeholder="E-Mail Address" type="email" required>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <div class="input-group input-group-alternative">
+                                        <div class="input-group input-group-alternative mb-3">
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
+                                                <span class="input-group-text"><i class="ni ni-key-25"></i></span>
                                             </div>
-                                            <input class="form-control" placeholder="Password" type="password">
+                                            <input name="password" class="form-control" placeholder="Password" type="password" required>
                                         </div>
-                                    </div> --}}
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group input-group-alternative mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="ni ni-key-25"></i></span>
+                                            </div>
+                                            <input name="password_confirmation" class="form-control" placeholder="Confirm Password" type="password" required>
+                                        </div>
+                                    </div>
+
                                     <div class="text-center">
                                         <button type="submit" class="btn btn-primary mt-4">Create account</button>
                                     </div>

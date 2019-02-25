@@ -17,7 +17,8 @@
     <!-- Argon CSS -->
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
-    <link type="text/css" href="css/docs.min.css" rel="stylesheet">
+    <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
+    <link type="text/css" href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section section-lg pt-lg-0 mt--150">
+        <section class="section section-lg pt-lg-0 mt--10">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -90,7 +91,7 @@
                 </div>
             </div>
         </section>
-        <br><br><br><br><br><br>
+
         <section class="section section-lg pt-lg-0 mt--200">
             <div class="container">
                 <div class="row justify-content-center">

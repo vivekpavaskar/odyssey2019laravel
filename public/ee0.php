@@ -17,7 +17,8 @@
     <!-- Argon CSS -->
     <link type="text/css" href="css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
-    <link type="text/css" href="css/docs.min.css" rel="stylesheet">
+    <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
+    <link type="text/css" href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -27,12 +28,12 @@
             <!-- shape Hero -->
             <section style="background-color:#3a4546;">
                 <div class="shape shape-style-1 shape-default">
-                    <img src="img/eeo.jpg" class="img-fluid" style="margin-top:80px;">
+                    <img src="img/ee0.jpg" class="img-fluid" style="margin-top:80px;">
                 </div>
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section section-lg pt-lg-0 mt--150">
+        <section class="section section-lg pt-lg-0 mt--10">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">

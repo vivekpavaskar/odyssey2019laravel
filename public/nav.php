@@ -86,7 +86,7 @@
 
                                     </div>
                                 </a>
-                                <a href="mba0.php" class="media d-flex align-items-center">
+                                <a href="cultural.php" class="media d-flex align-items-center">
                                     <div class="icon icon-shape bg-gradient-pink rounded-circle text-white">
                                         <i class="ni ni-istanbul"></i>
                                     </div>
@@ -104,8 +104,7 @@
                             <span class="">ABOUT&nbsp;US</span>
                         </a>
                     </li> -->
-
-                </ul>
+                    <!-- <li>
                 <ul class="navbar-nav align-items-lg-center ml-lg-auto">
 
                     <li class="nav-item d-none d-lg-block ml-lg-4">
@@ -121,6 +120,24 @@
                         </a>
                     </li>
 
+                </ul>
+            </li> -->
+                        <li class="nav-item open-btn">
+                            <a href="/login"> <button class="btn bg-gradient-orange">Login</button></a>
+                            <!-- <a  href="/register"> <button class="btn bg-gradient-success">Register</button></a> -->
+                        </li>
+                        <li class="nav-item open-btn">
+                            <!-- <a  href="/login"> <button class="btn bg-gradient-orange">Login</button></a> -->
+                            <a href="/register"> <button class="btn bg-gradient-success">Register</button></a>
+                        </li>
+                        <li class="nav-item close-btn">
+                            <a href="/login"> <button class="btn bg-gradient-orange">Login</button></a>
+                            <!-- <a  href="/register"> <button class="btn bg-gradient-success">Register</button></a> -->
+                        </li>
+                        <li class="nav-item close-btn">
+                            <!-- <a  href="/login"> <button class="btn bg-gradient-orange">Login</button></a> -->
+                            <a href="/register"> <button class="btn bg-gradient-success">Register</button></a>
+                        </li>
                 </ul>
             </div>
         </div>
