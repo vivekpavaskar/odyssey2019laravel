@@ -24,6 +24,7 @@
                 <table id="pdetails" class="table align-items-center table-flush">
                     <thead class="thead-light">
                         <tr>
+                            <th scope="col">Reg No.</th>
                             <th scope="col">Time</th>
                             <th scope="col">Name</th>
                             <th scope="col">Mobile</th>
@@ -37,8 +38,11 @@
                         @foreach ($participants as $p)
                         <tr>
                             <th scope="row">
-                                {{ \Carbon\Carbon::parse($p->created_at)->diffForHumans() }}
+                                {{ sprintf("R-%04s",$p->id) }}
                             </th>
+                            <td>
+                                {{ \Carbon\Carbon::parse($p->created_at)->diffForHumans() }}
+                            </td>
                             <td>
                                 {{ $p->fname }} {{ $p->lname }}
                             </td>
@@ -53,7 +57,7 @@
                             </td>
                             <td>
                                 @if ($p->payment == "Confirmed")
-                                <input type="submit" value="Paid" class="btn btn-danger" disabled>
+                                <input type="submit" value="Paid" class="btn btn-primary" disabled>
                                 @else
                                 <form action="/payment/{{ $p->id }}" method="post">
                                     @csrf
