@@ -13,8 +13,8 @@ class DefaultUser extends Seeder
     {
         //
         DB::table('users')->insert([
-            'email' => 'vivek@odyssey.com',
-            'password' => bcrypt('vivek@odyssey'),
+            'email' => 'admin@odyssey.com',
+            'password' => bcrypt('admin'),
             'fname' => 'vivek',
             'lname' => 'pavaskar',
             'mobile' => '9876543210',
