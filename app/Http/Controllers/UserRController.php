@@ -20,7 +20,7 @@ class UserRController extends Controller
         $reg = DB::table('registrations')
             ->join('users', 'users.id', '=', 'registrations.uid')
             ->join('events', 'events.id', '=', 'registrations.eid')
-            ->select('registrations.id','registrations.created_at','registrations.payment','users.fname','users.lname','users.mobile','events.ecode')
+            ->select('registrations.id','registrations.created_at','registrations.payment','registrations.receipt','users.fname','users.lname','users.mobile','events.ecode')
             ->latest()
             ->get();
 
@@ -28,11 +28,16 @@ class UserRController extends Controller
         return view('userR.participants')->with('participants',$reg);
     }
 
-    public function payment($id)
+    public function payment($id,Request $req)
     {
-        $reg=Registration::find($id);
-        $reg->payment="Confirmed";
-        $reg->save();
-        return back()->with('success','Status Changed!!');
+        if ($req->input('receipt')=="") {
+            return back()->with('error','Enter Receipt No.!!');
+        } else {
+            $reg=Registration::find($id);
+            $reg->receipt=$req->input('receipt');
+            $reg->payment="Confirmed";
+            $reg->save();
+            return back()->with('success','Status Changed!!');
+        }
     }
 }

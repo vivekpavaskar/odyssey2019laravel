@@ -107,7 +107,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="ni ni-mobile-button"></i></span>
                                             </div>
-                                            <input name="mobile" class="form-control" placeholder="Mobile" type="text" pattern="[0-9]*" maxlength="10" required>
+                                            <input name="mobile" class="form-control" placeholder="Mobile" type="number" min="1111111111" max="9999999999" required>
                                         </div>
                                     </div>
                                     <div class="form-group">
