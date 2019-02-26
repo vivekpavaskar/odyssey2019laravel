@@ -56,6 +56,7 @@
                             <th scope="col">Mobile</th>
                             <th scope="col">Event Code</th>
                             <th scope="col">Payment</th>
+                            <th scope="col">Receipt No.</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -70,6 +71,7 @@
                             <td>{{ $p->mobile }}</td>
                             <td>{{ $p->ecode }}</td>
                             <td>{{ $p->payment }}</td>
+                            <td>{{ $p->receipt }}</td>
                         </tr>
                         @php
                             $c++

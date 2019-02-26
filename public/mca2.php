@@ -26,7 +26,7 @@
     <main>
         <div class="position-relative">
             <!-- shape Hero -->
-            <section style="background-color:#3a4546;">
+            <section style="background-color:#2f030c;">
                 <div class="shape shape-style-1 shape-default">
                     <img src="img/mca2.jpg" class="img-fluid" style="margin-top:80px;">
                 </div>

@@ -139,10 +139,10 @@
                         <a href="/register"> <button class="btn bg-gradient-success">Register</button></a>
                     </li>
                     <li class="nav-item close-btn">
-                        <a href="/login"> <button class="btn bg-gradient-orange">Login</button></a>
+                        <a href="/login"> <button class="btn bg-gradient-orange btn-lg btn-block mt-2">Login</button></a>
                     </li>
                     <li class="nav-item close-btn">
-                        <a href="/register"> <button class="btn bg-gradient-success">Register</button></a>
+                        <a href="/register"> <button class="btn bg-gradient-success btn-lg btn-block mt-2">Register</button></a>
                     </li>
                 </ul>
             </div>

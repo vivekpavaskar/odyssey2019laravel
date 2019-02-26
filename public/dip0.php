@@ -28,7 +28,7 @@
         <div class="position-relative">
             <!-- shape Hero -->
             <section style="background-color:#3a4546;">
-                <div class="shape shape-style-1 shape-default">
+                <div class="shape shape-style-1 shape-default text-center">
                     <img src="img/dip0.jpg" class="img-fluid" style="margin-top:80px;">
                 </div>
             </section>

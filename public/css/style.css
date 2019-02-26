@@ -5,3 +5,13 @@
 .close-btn{
 	display: none;
 }
+
+@media (max-width: 768px){
+.open-btn{
+    display: none;
+}
+
+.close-btn{
+	display: block;
+}
+}

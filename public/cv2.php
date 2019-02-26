@@ -26,9 +26,9 @@
     <main>
         <div class="position-relative">
             <!-- shape Hero -->
-            <section style="background-color:#3a4546;">
-                <div class="shape shape-style-1 shape-default">
-                    <img src="img/cv2.png" class="img-fluid" style="margin-top:80px;">
+            <section style="background-color:#3c0d5c;">
+                <div class="shape shape-style-1 shape-default text-center">
+                    <img src="img/cv2.jpg" class="img-fluid" style="margin-top:80px;">
                 </div>
             </section>
             <!-- 1st Hero Variation -->
