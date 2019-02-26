@@ -1,17 +1,17 @@
-.open-btn{
+.desktop{
     display: block;
 }
 
-.close-btn{
+.mobile{
 	display: none;
 }
 
 @media (max-width: 768px){
-.open-btn{
+.desktop{
     display: none;
 }
 
-.close-btn{
+.mobile{
 	display: block;
 }
 }

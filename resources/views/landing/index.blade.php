@@ -19,17 +19,19 @@
     <link type="text/css" href="/css/argon-l.css?v=1.0.1" rel="stylesheet">
     <!-- Docs CSS -->
     <link type="text/css" href="/css/docs.min.css" rel="stylesheet">
+    <link type="text/css" href="/css/style.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body style="background-color: black">
     <?php include "nav.php";?>
     <main>
         <div class="position-relative">
             <!-- Hero for FREE version -->
             <section style="background-color:#090a0a;">
-                <div class="shape shape-style-1 shape-default text-center">
-                    <img src="img/mb.jpg" class="img-fluid" style="margin-top:80px;">
+                <div class="shape shape-style-1 shape-default">
+                    <img src="img/mb.jpg" class="img-fluid desktop mx-auto" style="margin-top:80px;">
+                    <img src="img/mbm.jpg" class="img-fluid mobile mx-auto" style="margin-top:80px;">
                 </div>
             </section>
         </div>
