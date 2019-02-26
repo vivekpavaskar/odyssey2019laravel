@@ -113,11 +113,11 @@
                             <span class="nav-link-inner--text">Gallery</span>
                         </a>
                     </li> -->
-                    <!-- <li class="nav-item dropdown">
-                        <a href="aboutus.php" class="nav-link" role="button">
+                    <li class="nav-item dropdown">
+                        <a href="aboutus.html" class="nav-link" role="button">
                             <span class="nav-link-inner--text">About Us</span>
                         </a>
-                    </li> -->
+                    </li>
                     <li class="nav-item dropdown m-1">
                         <a href="/login" class="nav-link btn btn-outline-success" role="button">
                             <span class="nav-link-inner--text">Login</span>
