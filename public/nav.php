@@ -41,7 +41,7 @@
                                         <h6 class="heading text-primary mb-md-1">Computer Science Engineering</h6>
                                     </div>
                                 </a>
-                                <a href="cs0.php" class="media d-flex align-items-center">
+                                <a href="ec0.php" class="media d-flex align-items-center">
                                     <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-sound-wave"></i>
                                     </div>
@@ -49,7 +49,7 @@
                                         <h6 class="heading text-primary mb-md-1">Electronics & Communications Engineering</h6>
                                     </div>
                                 </a>
-                                <a href="cs0.php" class="media d-flex align-items-center">
+                                <a href="ee0.php" class="media d-flex align-items-center">
                                     <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-bulb-61"></i>
                                     </div>
@@ -57,7 +57,7 @@
                                         <h6 class="heading text-primary mb-md-1">Electronics & Electrical Engineering</h6>
                                     </div>
                                 </a>
-                                <a href="cs0.php" class="media d-flex align-items-center">
+                                <a href="me0.php" class="media d-flex align-items-center">
                                     <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-settings"></i>
                                     </div>
@@ -65,7 +65,7 @@
                                         <h6 class="heading text-primary mb-md-1">Mechanical Engineering</h6>
                                     </div>
                                 </a>
-                                <a href="cs0.php" class="media d-flex align-items-center">
+                                <a href="cv0.php" class="media d-flex align-items-center">
                                     <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-building"></i>
                                     </div>
@@ -73,7 +73,7 @@
                                         <h6 class="heading text-primary mb-md-1">Civil Engineering</h6>
                                     </div>
                                 </a>
-                                <a href="cs0.php" class="media d-flex align-items-center">
+                                <a href="mca0.php" class="media d-flex align-items-center">
                                     <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-tv-2"></i>
                                     </div>
@@ -81,7 +81,7 @@
                                         <h6 class="heading text-primary mb-md-1">Masters in Computer Applications</h6>
                                     </div>
                                 </a>
-                                <a href="cs0.php" class="media d-flex align-items-center">
+                                <a href="cultural.php" class="media d-flex align-items-center">
                                     <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-note-03"></i>
                                     </div>
@@ -89,7 +89,7 @@
                                         <h6 class="heading text-primary mb-md-1">Cultural</h6>
                                     </div>
                                 </a>
-                                <a href="cs0.php" class="media d-flex align-items-center">
+                                <a href="mba0.php" class="media d-flex align-items-center">
                                     <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-hat-3"></i>
                                     </div>
@@ -97,7 +97,7 @@
                                         <h6 class="heading text-primary mb-md-1">MBA</h6>
                                     </div>
                                 </a>
-                                <a href="cs0.php" class="media d-flex align-items-center">
+                                <a href="dip0.php" class="media d-flex align-items-center">
                                     <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-paper-diploma"></i>
                                     </div>
