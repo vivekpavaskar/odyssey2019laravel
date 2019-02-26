@@ -2,7 +2,7 @@
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
         <div class="container">
             <a class="navbar-brand mr-lg-5" href="/">
-                <img src="img\brand\blue.png" style="width:50%;height:300%;">
+                <img src="/img/brand/blue.png">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global"
                 aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +13,7 @@
                     <div class="row">
                         <div class="col-6 collapse-brand">
                             <a href="/">
-                                <img src="img/brand/blue.png">
+                                <img src="/img/brand/blue.png">
                             </a>
                         </div>
                         <div class="col-6 collapse-close">
@@ -24,125 +24,109 @@
                             </button>
                         </div>
                     </div>
-                </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                </div>
+                <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
-                            <i class="ni ni-trophy d-lg-none"></i>
-                            <span class="nav-link-inner--text">EVENTS</span>
+                            <i class="ni ni-ui-04 d-lg-none"></i>
+                            <span class="nav-link-inner--text">Events</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-xl">
                             <div class="dropdown-menu-inner">
                                 <a href="cs0.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-gradient-blue rounded-circle text-white">
+                                    <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-laptop"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h6 class="heading text-primary mb-md-1">Computer Science</h6>
+                                        <h6 class="heading text-primary mb-md-1">Computer Science Engineering</h6>
                                     </div>
                                 </a>
-                                <a href="ec0.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                                <a href="cs0.php" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-darker rounded-circle text-white">
+                                        <i class="ni ni-sound-wave"></i>
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h6 class="heading text-primary mb-md-1">Electronics & Communications Engineering</h6>
+                                    </div>
+                                </a>
+                                <a href="cs0.php" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-bulb-61"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h6 class="heading text-success mb-md-1">Electronics & Communication</h6>
+                                        <h6 class="heading text-primary mb-md-1">Electronics & Electrical Engineering</h6>
                                     </div>
                                 </a>
-                                <a href="ee0.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-gradient-danger rounded-circle text-white">
-                                        <i class="ni ni-vector"></i>
-                                    </div>
-                                    <div class="media-body ml-3">
-                                        <h5 class="heading text-danger mb-md-1">Electrical & Electronics</h5>
-                                    </div>
-                                </a>
-                                <a href="me0.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-gradient-gray rounded-circle text-white">
+                                <a href="cs0.php" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-settings"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h5 class="heading text-grey mb-md-1">Mechanical Engineering</h5>
+                                        <h6 class="heading text-primary mb-md-1">Mechanical Engineering</h6>
                                     </div>
                                 </a>
-                                <a href="cv0.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-gradient-orange rounded-circle text-white">
+                                <a href="cs0.php" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-building"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h5 class="heading text-warning mb-md-1">Civil</h5>
+                                        <h6 class="heading text-primary mb-md-1">Civil Engineering</h6>
                                     </div>
                                 </a>
-                                <a href="mca0.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-gradient-cyan rounded-circle text-white">
+                                <a href="cs0.php" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-tv-2"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h5 class="heading text-cyan mb-md-1">MCA</h5>
+                                        <h6 class="heading text-primary mb-md-1">Masters in Computer Applications</h6>
                                     </div>
                                 </a>
-                                <a href="cultural.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-green rounded-circle text-white">
+                                <a href="cs0.php" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-darker rounded-circle text-white">
                                         <i class="ni ni-note-03"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h5 class="heading text-green mb-md-1">Cultural</h5>
+                                        <h6 class="heading text-primary mb-md-1">Cultural</h6>
                                     </div>
                                 </a>
-                                <a href="mba0.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-gradient-pink rounded-circle text-white">
-                                        <i class="ni ni-collection"></i>
+                                <a href="cs0.php" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-darker rounded-circle text-white">
+                                        <i class="ni ni-hat-3"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h5 class="heading text-pink mb-md-1">MBA</h5>
+                                        <h6 class="heading text-primary mb-md-1">MBA</h6>
                                     </div>
                                 </a>
-                                <a href="dip0.php" class="media d-flex align-items-center">
-                                    <div class="icon icon-shape bg-gradient-pink rounded-circle text-white">
-                                        <i class="ni ni-istanbul"></i>
+                                <a href="cs0.php" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-darker rounded-circle text-white">
+                                        <i class="ni ni-paper-diploma"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                        <h5 class="heading text-pink mb-md-1">Diploma</h5>
+                                        <h6 class="heading text-primary mb-md-1">Diploma</h6>
                                     </div>
                                 </a>
                             </div>
                         </div>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a href="aboutus.php" class="nav-link" role="button">
-                            <i class="ni ni-trophy d-lg-none"></i>
-                            <span class="">ABOUT&nbsp;US</span>
+                    <!-- <li class="nav-item dropdown">
+                        <a href="gallery.php" class="nav-link" role="button">
+                            <span class="nav-link-inner--text">Gallery</span>
                         </a>
                     </li> -->
-                    <!-- <li>
-                <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-
-                    <li class="nav-item d-none d-lg-block ml-lg-4">
-                        <a href="/login" class="btn btn-outline-success">
-
+                    <!-- <li class="nav-item dropdown">
+                        <a href="aboutus.php" class="nav-link" role="button">
+                            <span class="nav-link-inner--text">About Us</span>
+                        </a>
+                    </li> -->
+                    <li class="nav-item dropdown m-1">
+                        <a href="/login" class="nav-link btn btn-outline-success" role="button">
                             <span class="nav-link-inner--text">Login</span>
                         </a>
                     </li>
-                    <li class="nav-item d-none d-lg-block ml-lg-4">
-                        <a href="/register" class="btn btn-success">
-
+                    <li class="nav-item dropdown m-1">
+                        <a href="/register" class="nav-link btn btn-success" role="button">
                             <span class="nav-link-inner--text">Register</span>
                         </a>
-                    </li>
-
-                </ul>
-            </li> -->
-                    <li class="nav-item open-btn">
-                        <a href="/login"> <button class="btn bg-gradient-orange">Login</button></a>
-                    </li>
-                    <li class="nav-item open-btn">
-                        <a href="/register"> <button class="btn bg-gradient-success">Register</button></a>
-                    </li>
-                    <li class="nav-item close-btn">
-                        <a href="/login"> <button class="btn bg-gradient-orange btn-lg btn-block mt-2">Login</button></a>
-                    </li>
-                    <li class="nav-item close-btn">
-                        <a href="/register"> <button class="btn bg-gradient-success btn-lg btn-block mt-2">Register</button></a>
                     </li>
                 </ul>
             </div>
