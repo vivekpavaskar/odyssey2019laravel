@@ -42,7 +42,7 @@
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
 
-                                        <h6 class="text-primary text-uppercase"><b> Masters of Computer Application
+                                        <h6 class="text-primary text-uppercase"><b> Master of Computer Application
 
 
 
@@ -50,7 +50,7 @@
                                         <p> <span style="font-weight: 900;"> Department Coordinator:</span> <span style="font-weight: 600;">
                                                 Prof. Rajendra M. Jotawar </span>
                                             <br>
-                                            <!-- <p> <span style="font-weight: 900;"> No. of events:</span> <span style="font-weight: 600;"> 2 </span> -->
+
 
 
                                     </div>
@@ -73,7 +73,7 @@
                                         <h6 class="text-primary text-uppercase"><b>Event 1:</b></h6>
                                         </h6><br>
                                         <p> <span style="font-weight: 900;"> Event code:</span> <span style="font-weight: 600;">
-                                                MA1 </span>
+                                                MA01 </span>
                                             <br>
                                             <span style="font-weight: 900;"> Event name:</span> <span style="font-weight: 600;">
                                                 Ultimate Techie </span><br>
@@ -81,10 +81,12 @@
                                                 5 </span> <br>
                                             <span style="font-weight: 900;"> Entry Fee:</span> <span style="font-weight: 600;">
                                                 100/- </span><br>
-                                            <span style="font-weight: 900;"> No. of participants / Team size (with
-                                                conditions):</span> <span style="font-weight: 600;"> 2 </span> <br>
+                                            <span style="font-weight: 900;"> Team size: </span> <span style="font-weight: 600;">
+                                                2 </span> <br>
                                             <span style="font-weight: 900;"> Timing and date of event:</span> <span
                                                 style="font-weight: 600;"> 08/02/2019 at 10.30am </span> <br>
+                                            <span style="font-weight: 900;"> Location:</span> <span
+                                                style="font-weight: 600;"> MCA Lab A-309 </span> <br>
                                             <span style="font-weight: 900;"> No. of prizes:</span> <span style="font-weight: 600;">
                                                 2 </span> <br>
 
@@ -110,17 +112,19 @@
 
                                         <h6 class="text-primary text-uppercase"> <b>Event 2:</b></h6><br>
                                         <p> <span style="font-weight: 900;"> Event Code:</span> <span style="font-weight: 600;">
-                                                MA2 </span> <br>
+                                                MA02 </span> <br>
                                             <span style="font-weight: 900;"> Event Name:</span> <span style="font-weight: 600;">
                                                 Minute to Win it </span><br>
                                             <span style="font-weight: 900;">No. of rounds:</span> <span style="font-weight: 600;">
                                                 5 </span> <br>
                                             <span style="font-weight: 900;"> Entry Fee:</span> <span style="font-weight: 600;">
                                                 100/- </span> <br>
-                                            <span style="font-weight: 900;"> No. of participants / Team size (with
-                                                conditions):</span> <span style="font-weight: 600;"> 2 </span> <br>
+                                            <span style="font-weight: 900;"> Team size :</span> <span style="font-weight: 600;">
+                                                2 </span> <br>
                                             <span style="font-weight: 900;"> Timing and date of event:</span> <span
                                                 style="font-weight: 600;"> 08/02/2019 at 10.30am </span> <br>
+                                                <span style="font-weight: 900;"> Location:</span> <span
+                                                style="font-weight: 600;"> MCA Lab A-102 </span> <br>
                                             <span style="font-weight: 900;"> No. of prizes:</span> <span style="font-weight: 600;">
                                                 2 </span> <br>
 

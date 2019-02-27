@@ -59,12 +59,15 @@
                                                 <span class="font-weight-600">Vijay Patil&nbsp;[ 8073158108 ]</span>
                                                 &nbsp; &nbsp;<br>
                                                 <br>
-                                                <span class="font-weight-900">Entry Fee :</span>&nbsp;&nbsp; <span
+                                                <span class="font-weight-900">Entry Fee: </span> <span
                                                     class="font-weight-600">100/-</span><br>
-                                                <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
+                                                <span class="font-weight-900">Team Size: </span><span
                                                     class="font-weight-600">2</span><br>
-                                                <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
+                                                <span class="font-weight-900">Timing & date of Event: </span>
                                                 <span class="font-weight-600"> 8th and 9th March</span>
+                                                <br>
+                                                <span style="font-weight: 900;"> Location:</span> <span
+                                                style="font-weight: 600;"> Infront of C-building (behiend car parking) </span> <br>
                                         </p><br>
                                         <h1> Details of event:</h1>
                                         <h4>Tasks</h4>

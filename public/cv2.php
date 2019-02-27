@@ -44,10 +44,9 @@
                                         <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
                                         <h6 class="text-primary text-uppercase"><b>Non Technical Event </b></h6>
                                         </h6><br>
-                                        <p><b><span class="font-weight-900">Event code :</span></b><span class="font-weight-600">CV1</span>
+                                        <p><b><span class="font-weight-900">Event code :</span></b><span class="font-weight-600">CV02</span>
                                             <br>
-                                            <span class="font-weight-900">Event name :</span><span class="font-weight-600">&nbsp;&nbsp;BOB
-                                                THE BUILDER </span><br>
+                                            <span class="font-weight-900">Event name :</span><span class="font-weight-600">&nbsp;&nbsp;MAD RACE </span><br>
                                             <br>
 
                                             <span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;<span
@@ -59,17 +58,19 @@
                                             &nbsp; &nbsp;<br> <br>
                                             <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600"></span><span
                                                 class="font-weight-600">200 per team</span><br>
-                                            <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
+                                            <span class="font-weight-900">Team Size:</span>&nbsp;&nbsp;<span
                                                 class="font-weight-600">4</span><br>
 
-                                            <span class="font-weight-900">No. of rounds:</span><span class="font-weight-600">02</span><br>
+                                            <span class="font-weight-900">No. of rounds:</span><span class="font-weight-600"> 2</span><br>
                                             <span class="font-weight-900">No. of prizes:</span><span class="font-weight-600">
-                                                02</span> <br>
+                                                2</span> <br>
                                             <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
                                             <span class="font-weight-600">1st round on 8.03.2019, 11.00am
                                                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd
                                                 round on 9.03.2019, 11.00am
                                             </span><br>
+                                            <span class="font-weight-900">Location: </span><span
+                                                class="font-weight-600"> Space infront of college canteen</span><br>
 
 
 

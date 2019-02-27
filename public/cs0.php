@@ -73,7 +73,7 @@
                                             <br>
 
                                             <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600">100/-</span><br>
-                                            <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
+                                            <span class="font-weight-900">Team Size: </span>&nbsp;&nbsp;<span
                                                 class="font-weight-600">2</span><br>
                                             <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
                                             <span class="font-weight-600">8th march 2019(10:00 am-4:00 pm ) <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -89,7 +89,7 @@
                 </div>
             </div>
         </section>
-
+        <br>
         <section class="section section-lg pt-lg-0 mt--100">
             <div class="container">
                 <div class="row justify-content-center">
@@ -103,11 +103,11 @@
                                         <br>
                                         <b><span class="font-weight-900">Event name :</span>&nbsp;&nbsp;<span class="font-weight-600">LAN
                                                 Gaming (Counter Strike),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAN
-                                                Gaming (PUBG)
+                                                Gaming (PUBG MOBILE)
                                                 </span></b>
                                         <br>
-                                        <b><span class="font-weight-900">Entry Fee :</span><span class="font-weight-600">&nbsp;Rs.200</span><br>
-                                            <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
+                                        <b><span class="font-weight-900">Entry Fee :</span><span class="font-weight-600">&nbsp;200/-</span><br>
+                                            <span class="font-weight-900">Team Size:</span>&nbsp;&nbsp;<span
                                                 class="font-weight-600">4</span></b><br>
                                         <b><span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;<span
                                                 class="font-weight-600"> 8th 9th March </span><br>

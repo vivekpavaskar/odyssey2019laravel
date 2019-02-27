@@ -72,9 +72,9 @@
                                             <br>
                                             <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600"></span><span
                                                 class="font-weight-600">100/-</span><br>
-                                            <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
-                                                class="font-weight-600">2 participants in a team.</span><br>
-                                            <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
+                                            <span class="font-weight-900">Team Size: </span><span
+                                                class="font-weight-600"> 2</span><br>
+                                            <span class="font-weight-900">Timing & date of Event: </span>
                                             <span class="font-weight-600">9.00am-4.00pm / 8th -9th march
 
                                             </span>
@@ -102,10 +102,10 @@
                                         <b><span class="font-weight-900">Event name :</span>&nbsp;&nbsp;<span class="font-weight-600">Scary
                                                 House</span></b>
                                         <br>
-                                        <b><span class="font-weight-900">Entry Fee :</span><span class="font-weight-600">100/-</span><br>
-                                            <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
-                                                class="font-weight-600">2 participants in each team.</span></b><br>
-                                        <b><span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;<span
+                                        <b><span class="font-weight-900">Entry Fee: </span><span class="font-weight-600">100/-</span><br>
+                                            <span class="font-weight-900">Team Size: </span><span
+                                                class="font-weight-600"> 2</span></b><br>
+                                        <b><span class="font-weight-900">Timing & date of Event:</span><span
                                                 class="font-weight-600"> 9.00am-4.00pm / 8th and 9th march <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                 <br>
                                         </b>

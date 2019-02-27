@@ -45,7 +45,7 @@
                                         <h6 class="text-primary text-uppercase"><b>Event 1:</b></h6>
                                         </h6><br>
                                         <p> <span style="font-weight: 900;"> Event code:</span> <span style="font-weight: 600;">
-                                                MA1 </span>
+                                                MA01 </span>
                                             <br>
                                             <span style="font-weight: 900;"> Event name:</span> <span style="font-weight: 600;">
                                                 Ultimate Techie </span>
@@ -65,10 +65,11 @@
                                                 5 </span> <br>
                                             <span style="font-weight: 900;"> Entry Fee:</span> <span style="font-weight: 600;">
                                                 100/- </span><br>
-                                            <span style="font-weight: 900;"> No. of participants / Team size (with
-                                                conditions):</span> <span style="font-weight: 900;"> 2 </span> <br>
+                                            <span style="font-weight: 900;"> Team size: </span> <span style="font-weight: 900;"> 2 </span> <br>
                                             <span style="font-weight: 900;"> Timing and date of event:</span> <span
                                                 style="font-weight: 600;"> 08/02/2019 at 10.30am </span> <br>
+                                                <span style="font-weight: 900;"> Location:</span> <span
+                                                style="font-weight: 600;"> MCA Lab A-309 </span> <br>
                                             <span style="font-weight: 900;"> No. of prizes:</span> <span style="font-weight: 900;">
                                                 2 </span> <br>
 

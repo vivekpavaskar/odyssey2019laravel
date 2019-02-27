@@ -29,7 +29,7 @@
             <!-- shape Hero -->
             <section style="background-color:#310204;">
                 <div class="shape shape-style-1 shape-default">
-                    <img src="img/cs2.png" class="img-fluid" style="margin-top:80px;">
+                    <img src="img/cs2.jpg" class="img-fluid" style="margin-top:80px;">
                 </div>
             </section>
             <!-- 1st Hero Variation -->
@@ -50,9 +50,19 @@
                                             <br>
                                             <span class="font-weight-900">Event name :</span><span class="font-weight-600">LAN
                                                 Gaming (Counter Strike),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAN
-                                                Gaming (PUBG)
+                                                Gaming (PUBG MOBILE)
                                             </span>
                                             <br>
+                                            <!-- <br>
+                                            <span class="font-weight-900">Staff Coordinator 1:</span>&nbsp;&nbsp;<span
+                                                class="font-weight-600"> Prof. Mahantesh Devoor</span>
+                                                <br>
+                                            <span class="font-weight-900">Staff Coordinator 2:</span>&nbsp;&nbsp;<span
+                                                class="font-weight-600"> Dr. Dinesha H. A.
+                                                <br>
+                                            <span class="font-weight-900">Staff Coordinator 3:</span>&nbsp;&nbsp;<span
+                                                class="font-weight-600"> Prof. Pavan Ughade
+                                                <br> -->
                                             <br>
                                             <span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;<span
                                                 class="font-weight-600"> Nitin Sabale &nbsp;[ 8105798127 ]
@@ -61,11 +71,13 @@
                                                 <span class="font-weight-600">Nikita Oulkar &nbsp;[ 7875226272 ]</span>
                                                 &nbsp; &nbsp;<br>
                                                 <br>
-                                                <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600">&nbsp;100/-</span><br>
-                                                <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
+                                                <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600">&nbsp;200/-</span><br>
+                                                <span class="font-weight-900">Team Size:</span>&nbsp;&nbsp;<span
                                                     class="font-weight-600"></span> 4</span><br>
                                             <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
                                             <span class="font-weight-600">8th and 9th March </span><br>
+                                            <span class="font-weight-900">Location :</span>&nbsp;&nbsp;
+                                            <span class="font-weight-600">CSE Lab </span><br>
                                             <h1> Details of event:</h1><br>
                                             <h5> <b>Rules:</b>&nbsp;<br>LAN Gaming(Counter strike)</h5>
                                             • Each team must have 4 players.<br>
@@ -79,7 +91,7 @@
                                             • Coordinators decision will be considered as the final decision. <br>
                                             <b>No. of rounds :Knockout</b><br><br><br>
 
-                                            <h5> <b>Rules:</b>&nbsp;<br>LAN Gaming (PUBG)</h5>
+                                            <h5> <b>Rules:</b>&nbsp;<br>LAN Gaming (PUBG MOBILE)</h5>
                                             • Each Squad must have 4 players.<br>
                                             • Maps will be announced by the coordinators at the time of event.<br>
                                             • Players must give their PUBG Nickname game ID along with their name

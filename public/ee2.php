@@ -59,17 +59,18 @@
                                             &nbsp;<br> <br>
                                             <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600"></span><span
                                                 class="font-weight-600">100/-</span><br>
-                                            <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
-                                                class="font-weight-600">2 participants in a team.</span><br>
+                                            <span class="font-weight-900">Team Size: </span><span
+                                                class="font-weight-600"> 2</span><br>
 
-                                            <span class="font-weight-900">No. of rounds:</span><span class="font-weight-600">&nbsp;01</span><br>
+                                            <span class="font-weight-900">No. of rounds:</span><span class="font-weight-600">&nbsp;1</span><br>
                                             <span class="font-weight-900">No. of prizes:</span><span class="font-weight-600">
-                                                &nbsp; 01</span> <br>
+                                                1</span> <br>
                                             <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
                                             <span class="font-weight-600">9.00am-4.00pm / 8th -9th march
 
                                             </span><br>
-
+                                            <span style="font-weight: 900;"> Location:</span> <span
+                                                style="font-weight: 600;"> C-002 </span> <br>
                                             <h1> Details of event:</h1>
                                             <h5>
 

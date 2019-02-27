@@ -57,19 +57,19 @@
                                             <span class="font-weight-900">Student Coordinator 2:</span>&nbsp;&nbsp;
                                             <span class="font-weight-600">Sameeksha Naik &nbsp;[ 7411894884 ]</span>
                                             &nbsp; &nbsp;<br> <br>
-                                            <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600"></span><span
+                                            <span class="font-weight-900">Entry Fee: </span><span class="font-weight-600"></span><span
                                                 class="font-weight-600">100/-</span><br>
-                                            <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
-                                                class="font-weight-600">2 participants in a team.</span><br>
+                                            <span class="font-weight-900">Team Size: </span><span
+                                                class="font-weight-600">2</span><br>
 
-                                            <span class="font-weight-900">No. of rounds:</span><span class="font-weight-600">&nbsp;03</span><br>
+                                            <span class="font-weight-900">No. of rounds:</span><span class="font-weight-600">&nbsp;3</span><br>
                                             <span class="font-weight-900">No. of prizes:</span><span class="font-weight-600">
-                                                &nbsp; 03</span> <br>
+                                                3</span> <br>
                                             <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
                                             <span class="font-weight-600">9.00am-4.00pm / 8th -9th march
-
                                             </span><br>
-
+                                            <span style="font-weight: 900;"> Location:</span> <span
+                                                style="font-weight: 600;"> Car Parking Area infront of C-building.</span> <br>
                                             <h1> Details of event:</h1>
                                             <h5>
                                                 BASIC RULES:</h5>

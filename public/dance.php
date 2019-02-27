@@ -45,10 +45,9 @@
 
                                         <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
                                         <h6 class="text-primary text-uppercase"> Group Dance </h6><br>
-                                        <b><span class="font-weight-900">Event code</b> :</span><span class="font-weight-600">&nbsp;GE2</span>
+                                        <b><span class="font-weight-900">Event code</b> :</span><span class="font-weight-600">&nbsp;GE02</span>
                                         <br>
-                                        <b><span class="font-weight-900">Event name :</span>&nbsp;&nbsp;<span class="font-weight-600">Movology
-                                                (Group Dance Event)</span></b>
+                                        <b><span class="font-weight-900">Event name :</span>&nbsp;&nbsp;<span class="font-weight-600">Movology (Group Dance Event)</span></b>
                                         <br>
                                         <br>
                                         <b><span class="font-weight-900">Staff Coordinator 1:</span>&nbsp;&nbsp; <span
@@ -74,12 +73,11 @@
                                             1 </span><br>
                                         <span class="font-weight-900">Entry Fee:</span>&nbsp; <span class="font-weight-600">Rs.500/-
                                         </span><br>
-                                        <span class="font-weight-900">No. of participants / Team size (with
-                                            conditions): </span>&nbsp;<span class="font-weight-600">06-10</span></b><br>
+                                        <span class="font-weight-900"> Team size: </span>&nbsp;<span class="font-weight-600">06-10</span></b><br>
                                         <span class="font-weight-900">Timing and date of event: </span>&nbsp;<span
-                                            class="font-weight-600"> </span><br>
+                                            class="font-weight-600"> 9th March 2019 at 06:00 PM </span><br>
                                         <span class="font-weight-900">Number of prizes: </span>&nbsp;<span class="font-weight-600">
-                                            02 </span><br>
+                                            2 </span><br>
                                         <br>
                                         <h1> Details of event:</h1>
                                         <h5>Rules:</h5>
@@ -99,7 +97,7 @@
                                         8. Green room would be given for changing purpose. <br>
                                         9. The participants will be judged on the basis of their rhythm, formation,
                                         synchronization, expressions, costumes and overall effects. <br>
-                                        10. Decision of the judges will be final and binding. <br>
+                                        10. Decision of the judges will be final. <br>
                                         11. Based on the entries, screening will be done on 7th March 2019 at 2pm. Best
                                         six teams will participate in the competition. <br>
 

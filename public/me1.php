@@ -48,7 +48,7 @@
                                         <h6 class="text-primary text-uppercase"><b>Event 1:</b></h6>
                                         </h6><br>
                                         <p><span style="font-weight: 900;">Event code:</span> <span style="font-weight: 600;">
-                                                ME1 </span>
+                                                ME01 </span>
                                             <br>
                                             <span style="font-weight: 900;">Event name:</span> <span style="font-weight: 600;">Royal
                                                 Fiesta </span>
@@ -69,29 +69,85 @@
                                                 3 </span> <br>
                                             <span style="font-weight: 900;">Entry Fee:</span> <span style="font-weight: 600;">
                                                 100/- </span> <br>
-                                            <span style="font-weight: 900;">No. of participants / Team size (with
-                                                conditions):</span> <span style="font-weight: 600;"> 4 </span><br>
+                                            <span style="font-weight: 900;">Team size: </span> <span style="font-weight: 600;">
+                                                2 - 4 </span><br>
                                             <span style="font-weight: 900;">Timing and date of event:</span> <span
-                                                style="font-weight: 600;"> 10.00 am to 05.30 pm and 8th & 9th March
+                                                style="font-weight: 600;"> 10.00 am to 05.30 pm on 8th & 9th March
                                             </span><br>
+                                            <span style="font-weight: 900;"> Location:</span> <span style="font-weight: 600;">
+                                                B-303, Workshop Ground, and College campus </span> <br>
                                             <span style="font-weight: 900;">No. of prizes:</span> <span style="font-weight: 600;">
                                                 2 </span><br>
 
                                         </p>
                                         <h1> Rules:</h1><br>
-                                        <h3>1. Quiz</h3>
-                                        • Shall comprise of two parts, each containing questions related to GK and
-                                        Bollywood.<br>
-                                        • Each team will be answering the question paper together,<br>
-                                        • The maximum scoring team shall clear the round<br> <br>
-                                        <h3>2. Add- Mad</h3>
-                                        • Each add has to be enacted regarding the product assigned. <br>
-                                        Example: soap, power bank, washing powder etc. <br>
-                                        • The judgement shall be made upon the creativity, team coordination and
-                                        content delivery <br>
-                                        • The language of the add shall be English or Hindi or both. <br><br>
-                                        <h3> 3. Treasure hunt </h3>
-                                        • The instructions will be given on spot.<br>
+
+                                        <h3>GENERAL RULES </h3>
+                                                1. Only team entries are eligible. <br>
+                                                2. Open for all branches. <br>
+                                                3. A team shall consist of Min 2 and Max 4 persons. <br>
+                                                4. The decision of the organizer will be final and will not be
+                                                subjected to any change. <br>
+                                                5. Replacement of any participant of a team is not allowed after
+                                                registration. <br>
+                                                6. Teams selected for the final rounds will be allowed to give
+                                                themselves an appropriate name related to the competition by which they
+                                                may want to be known. <br>
+                                                7. After round 1 that is elimination round only 12 teams will be
+                                                selected for the next round. <br>
+<
+                                                <h3>1. Quiz</h3>
+                                                <h5>Sub Round 1</h5>
+                                                • Each team would be given a set of question paper containing 50
+                                                questions
+                                                related to current affairs, Bollywood , sports etc.<br>
+                                                • Time limit – 30 minutes. <br>
+                                                • The decision of the quiz-master will be final and will not be
+                                                subjected to
+                                                any change.<br>
+                                                • The participants shall not be allowed to use mobile or other
+                                                electronic
+                                                instruments.<br>
+                                                • Each question carries 1 mark. No Negative Marking.<br><br>
+                                                <h5>Sub Round 2 (Audio- Visual) </h5>
+                                                • Teams will be shown clips, images or audio and will have to answer.<br>
+                                                • 10 marks for the correct answer and negative 5 marks for the wrong
+                                                answer.<br>
+                                                • Total 15 questions will be asked common to all.<br>
+                                                • Answering time is only 20 seconds.<br>
+                                                • In case of a tie a separate round may be conducted.<br>
+
+                                                <h3>2. Add- Mad</h3>
+                                                • It is a team event.<br>
+                                                • Topics would be provided on the spot.<br>
+                                                • 15 minutes preparation time for each team.<br>
+                                                • Time limit for the performing the advertisement is 2-3 minutes.<br>
+                                                • Participants shall be judged on the basis of spontaneity, Ability to
+                                                attract
+                                                audience's attention, Concept of ad, Team work, and Voice modulation,
+                                                Ability
+                                                to highlight the idea of product with minimum efforts, overall
+                                                presentation
+                                                content, and adherence to the topic, on-stage presentation and overall
+                                                appeal
+                                                of the advertisement.<br>
+                                                • The caution should be taken to refrain from displaying obscenity,
+                                                violence,
+                                                prejudice, defamation etc. in Advertisement. <br>
+                                                • Decision of the judges will be final and binding. <br>
+
+                                                <h3> 3. Treasure hunt </h3>
+                                                • The clues are to be found in a particular order. <br>
+                                                • A team cannot skip a clue. <br>
+                                                • Interacting with anyone else other than the team mates is not
+                                                allowed. <br>
+                                                • Usage of phones is prohibited. <br>
+                                                • If you found other team’s clue by any chance never tamper it.
+                                                Destroying any
+                                                clues will attract immediate disqualification. <br>
+                                                • Further details or any queries you can contact the event
+                                                co-coordinators. <br>
+
 
 
                                     </div>

@@ -44,10 +44,10 @@
                                         <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
                                         <h6 class="text-primary text-uppercase"><b>Short Film:</b></h6>
                                         </h6><br>
-                                        <p><b><span class="font-weight-900">Event code :</span><span class="font-weight-600">&nbsp;GE4</span></b>
+                                        <p><b><span class="font-weight-900">Event code :</span><span class="font-weight-600">&nbsp;GE04</span></b>
                                             <br>
                                             <span class="font-weight-900">Event name :</span><span class="font-weight-600">&nbsp;&nbsp;</span><span
-                                                class="font-weight-600">24 Frames</span>
+                                                class="font-weight-600"> 24 Frames</span>
                                             <br>
                                             <br>
 
@@ -63,14 +63,16 @@
                                                 <span class="font-weight-900">Student Coordinator 2:</span>&nbsp;&nbsp;
                                                 <span class="font-weight-600">Nourin Mullannavar&nbsp;&nbsp;[
                                                     8197171190 ]</span><br><br>
+                                                <span class="font-weight-900" style="color:red;">Audition Date: </span>&nbsp;<span
+                                            class="font-weight-600"> 6th March 2019 at 10:45 AM </span><br>
+                                        <span class="font-weight-900" style="color:red;">Audition Location: </span>&nbsp;<span
+                                            class="font-weight-600"> Closed Auditorium </span><br>
                                                 <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600">Rs
                                                     200/-</span><br>
-                                                <span class="font-weight-900">Team Size:</span>&nbsp;&nbsp;<span class="font-weight-600"></span>2-6
-                                                members(excludes cast members)</span><br>
-                                                <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
-                                                <span class="font-weight-600">6th March 2019 at 10:45 AM</span><br>
-                                                <span class="font-weight-900">Tagline:</span>&nbsp;&nbsp; <span class="font-weight-700">"You'll
-                                                    laugh,You'll cry,You'll hurl"</span>
+                                                <span class="font-weight-900">Team Size:</span>&nbsp;&nbsp;<span class="font-weight-600">  2-6 (excludes cast members)</span><br>
+                                                <span class="font-weight-900">Date of Event:</span>&nbsp;&nbsp;
+                                                <span class="font-weight-600"> 8th March 2019</span><br>
+                                                <span class="font-weight-900">Tagline:</span>&nbsp;&nbsp; <span class="font-weight-700">"You'll laugh,You'll cry,You'll hurl"</span>
                                         </p><br>
                                         <h5>Topics</h5>
                                         1.Indian cultural contrast.<br>

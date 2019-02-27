@@ -43,7 +43,7 @@
                                     <div class="card-body py-5">
                                         <h6 class="text-primary text-uppercase"> Fashion Show</h6><br>
                                         <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
-                                        <b><span class="font-weight-900">Event code</b> :</span><span class="font-weight-600">GE3
+                                        <b><span class="font-weight-900">Event code</b> :</span><span class="font-weight-600">GE03
                                             <br>
                                             <b><span class="font-weight-900">Event name :</span>&nbsp;&nbsp;<span class="font-weight-600">Fashion
                                                     Fiesta</span></b>
@@ -91,11 +91,10 @@
                                                 1 </span><br>
                                             <span class="font-weight-900">Entry Fee:</span>&nbsp; <span class="font-weight-600">Rs.500/-
                                             </span><br>
-                                            <span class="font-weight-900">No. of participants / Team size (with
-                                                conditions): </span>&nbsp;<span class="font-weight-600">5-10</span></b><br>
+                                            <span class="font-weight-900">Team size: </span>&nbsp;<span class="font-weight-600">5-10</span></b><br>
                                             <span class="font-weight-900">Timing and date of event: </span>&nbsp;<span
-                                                class="font-weight-600"> </span><br>
-                                            <span class="font-weight-900">Number of prizes: </span>&nbsp;<span class="font-weight-600">
+                                                class="font-weight-600"> 8th March 2019 at 04:00 PM  </span><br>
+                                            <span class="font-weight-900">Number of prizes: </span>&nbsp;<span class="font-weight-600"> 2
                                             </span><br>
                                             <br>
                                             <h5>Rules:</h5>

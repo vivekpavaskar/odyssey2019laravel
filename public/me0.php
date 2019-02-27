@@ -72,7 +72,7 @@
                                         <h6 class="text-primary text-uppercase"><b>Event 1:</b></h6>
                                         </h6><br>
                                         <p><span style="font-weight: 900;">Event code:</span> <span style="font-weight: 600;">
-                                                ME1 </span>
+                                                ME01 </span>
                                             <br>
                                             <span style="font-weight: 900;">Event name:</span> <span style="font-weight: 600;">Royal
                                                 Fiesta </span>
@@ -81,10 +81,9 @@
                                                 3 </span> <br>
                                             <span style="font-weight: 900;">Entry Fee:</span> <span style="font-weight: 600;">
                                                 100/- </span> <br>
-                                            <span style="font-weight: 900;">No. of participants / Team size (with
-                                                conditions):</span> <span style="font-weight: 600;"> 4 </span><br>
+                                            <span style="font-weight: 900;">Team size: </span> <span style="font-weight: 600;"> 4 </span><br>
                                             <span style="font-weight: 900;">Timing and date of event:</span> <span
-                                                style="font-weight: 600;"> 10.00 am to 05.30 pm and 8th & 9th March
+                                                style="font-weight: 600;"> 10.00 am to 05.30 pm on 8th & 9th March
                                             </span><br>
                                             <span style="font-weight: 900;">No. of prizes:</span> <span style="font-weight: 600;">
                                                 2 </span><br>
@@ -111,18 +110,19 @@
 
                                         <h6 class="text-primary text-uppercase"> <b>Event 2:</b></h6><br>
                                         <p> <span style="font-weight: 900;">Event Code: </span> <span style="font-weight: 600;">
-                                                ME2</span><br>
+                                                ME02</span><br>
                                             <span style="font-weight: 900;">Event Name:</span> <span style="font-weight: 600;">Royal
                                                 CrossFit </span><br>
                                             <span style="font-weight: 900;">No. of rounds:</span> <span style="font-weight: 600;">
                                                 4 </span> <br>
                                             <span style="font-weight: 900;">Entry Fee:</span> <span style="font-weight: 600;">
                                                 100/- </span> <br>
-                                            <span style="font-weight: 900;">No. of participants / Team size (with
-                                                conditions):</span> <span style="font-weight: 600;"> 1 </span><br>
+                                            <span style="font-weight: 900;">No. of participant: </span> <span style="font-weight: 600;"> 1 </span><br>
                                             <span style="font-weight: 900;">Timing and date of event:</span> <span
-                                                style="font-weight: 600;"> 10.00 am to 05:30 pm and 8th & 9th March
+                                                style="font-weight: 600;"> 10.00 am to 05:30 pm on 8th & 9th March
                                             </span><br>
+                                            <span style="font-weight: 900;"> Location:</span> <span
+                                                style="font-weight: 600;"> Flag post to Ganapati Temple including Car Parking Area </span> <br>
                                             <span style="font-weight: 900;">No. of prizes:</span> <span style="font-weight: 600;">
                                                 2 ( For Boys and Girls seoarately ) </span> <br>
 

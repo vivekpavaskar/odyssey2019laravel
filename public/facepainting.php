@@ -45,17 +45,17 @@
                                         <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
                                         <h6 class="text-primary text-uppercase"><b>Face painting</b></h6>
                                         </h6><br>
-                                        <p> <span style="font-weight: 900;"> Event code:</span> <span style="font-weight: 600;">GE5</span>
+                                        <p> <span style="font-weight: 900;"> Event code:</span> <span style="font-weight: 600;">GE05</span>
                                             <br>
                                             <span style="font-weight: 900;"> Event name:</span> <span style="font-weight: 600;">
-                                                ArtPhoria </span><br><br>
+                                                Splash Arty </span><br><br>
 
                                             <span class="font-weight-900">Staff Coordinator 1:</span>&nbsp;&nbsp;<span
-                                                class="font-weight-600"> Dr.Raghavendra( Chemistry dept)<br>
+                                                class="font-weight-600"> Dr.Raghavendra( Chemistry Dept)<br>
                                                 <span class="font-weight-900">Staff Coordinator 2:</span>&nbsp;&nbsp;<span
-                                                    class="font-weight-600"> Dr.Supriya Kulkarni( Civil dept)<br>
+                                                    class="font-weight-600"> Dr.Supriya Kulkarni( Civil Dept)<br>
                                                     <span class="font-weight-900">Staff Coordinator 3:</span>&nbsp;&nbsp;<span
-                                                        class="font-weight-600"> Prof.zuhi( EC dept)<br>
+                                                        class="font-weight-600"> Prof.zuhi( EC Dept)<br>
                                                         <br> <span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;<span
                                                             class="font-weight-600"> Abhishek Chalke &nbsp;&nbsp;[
                                                             9743744284 ]
@@ -65,10 +65,10 @@
                                                                 7204345706 ]</span> &nbsp; &nbsp;<br> <br>
                                                             <span style="font-weight: 900;"> Entry Fee:</span> <span
                                                                 style="font-weight: 600;"> 100/- </span><br>
-                                                            <span style="font-weight: 900;"> No. of participants / Team
-                                                                size (with conditions):</span> <span style="font-weight: 600;">
-                                                                Team event (2 people - the one who wil paint and the
-                                                                other whose face will be painted ). </span> <br>
+                                                            <span style="font-weight: 900;">Team size: </span> <span
+                                                                style="font-weight: 600;"> 2 ( the one who will paint
+                                                                and the
+                                                                other one whose face will be painted ). </span> <br>
                                                             <span style="font-weight: 900;"> Timing and date of event:</span>
                                                             <span style="font-weight: 600;"> 11:30am on 8th March 2019.
                                                             </span> <br>
@@ -79,8 +79,8 @@
                                         </p><br>
                                         <h1>Details of event :</h1><br>
                                         <h3> Round one : Face Xpresso</h3>
-                                        <h4>Rules :-</h4>
-                                        1. Team event (2 people - the one who wil paint and the other whose face will
+                                        <h4>Rules :</h4>
+                                        1. Team event (2 people - the one who will paint and the other whose face will
                                         be painted ).<br>
                                         2.Themes for face painting : <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->Scary<br>
                                         &nbsp;&nbsp;&nbsp;&nbsp; ->Joker<br>
@@ -93,18 +93,18 @@
                                         6. Location : Class A001 and A002.<br><br><br>
 
                                         <h3>Final round : Depict your scene</h3>
-                                        <h4>Rules :-</h4>
-                                        1.Select a spot in the campus and capture it in your mobile/tablet etc within
+                                        <h4>Rules :</h4>
+                                        1. Select a spot in the campus and capture it in your mobile/tablet etc within
                                         15 minutes.<br>
-                                        2.Depict the captured images on the provided drawing sheet using paints.<br>
-                                        3.Get your own materials .<br>
-                                        4.Time limit :2 hours .<br>
-                                        5.The event will start at 11.30 am on 9th March 2019.<br>
+                                        2. Depict the captured images on the provided drawing sheet using paints.<br>
+                                        3. Get your own materials .<br>
+                                        4. Time limit :2 hours .<br>
+                                        5. The event will start at 11.30 am on 9th March 2019.<br>
                                         6. Location : Class A001 and A002.<br><br>
 
-                                        <h4>Instructions :-</h4>
-                                        1.Capture the image and return to the mentioned location.<br>
-                                        2.The captured will be verified by the coordinators.<br>
+                                        <h4>Instructions :</h4>
+                                        1. Capture the image and return to the mentioned location.<br>
+                                        2. The captured will be verified by the coordinators.<br>
 
 
                                     </div>
@@ -115,6 +115,70 @@
                 </div>
             </div>
         </section>
+        <section class="section section-lg pt-lg-0 mt--10">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <div class="row row-grid">
+                                <div class="col-lg-12">
+                                    <div class="card card-lift--hover shadow border-0">
+                                        <div class="card-body py-5">
+                                            <h6 class="text-primary text-uppercase"><b>Art exhibition&nbsp;&nbsp; [
+                                                    Only
+                                                    for Jain College of Engineering Students ]</b></h6>
+                                            </h6><br>
+                                            <p> <span style="font-weight: 900;"> Event code:</span> <span style="font-weight: 600;">GE05</span>
+                                                <br>
+                                                <span style="font-weight: 900;"> Event name:</span> <span style="font-weight: 600;">
+                                                    Art Collectanea</span><br><br>
+                                                <span class="font-weight-900">Staff Coordinator 1:</span>&nbsp;&nbsp;<span
+                                                    class="font-weight-600"> Dr.Raghavendra( Chemistry Dept. )<br>
+                                                    <span class="font-weight-900">Staff Coordinator 2:</span>&nbsp;&nbsp;<span
+                                                        class="font-weight-600"> Dr.Supriya Kulkarni( Civil Dept. )<br>
+                                                        <span class="font-weight-900">Staff Coordinator 3:</span>&nbsp;&nbsp;<span
+                                                            class="font-weight-600"> Prof.zuhi( EC Dept. )<br><br>
+                                                            <span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;<span
+                                                                class="font-weight-600"> Abhishek Chalke&nbsp;[
+                                                                9743744284
+                                                                ]
+                                                                <br>
+                                                                <span class="font-weight-900">Student Coordinator 2:</span>&nbsp;&nbsp;
+                                                                <span class="font-weight-600">Rutuja Kelkar&nbsp;[
+                                                                    7204345706 ]</span> &nbsp; &nbsp;<br> <br>
+                                                                <span style="font-weight: 900;"> Entry Fee:</span>
+                                                                <span style="font-weight: 600;"> Free entry </span><br>
+                                                                <span style="font-weight: 900;"> No. of participants:</span> <span style="font-weight: 600;">
+                                                                    1 </span> <br>
+                                                                <span style="font-weight: 900;"> Timing and date of
+                                                                    event:</span>
+                                                                <span style="font-weight: 600;"> 11:30am on 8th March
+                                                                    2019.
+                                                                </span> <br>
+                                                                <span style="font-weight: 900;"> No. of prizes:</span>
+                                                                <span style="font-weight: 600;"> Participation
+                                                                    certificate
+                                                                    to all participants. </span> <br>
+                                            </p><br>
+                                            <h4>Rules :-</h4>
+                                            1. Participants can get their paintings , sketches and only handmade art to
+                                            exibit.<br>
+                                            2. Each partipant will be provided space to display her/his art.<br>
+                                            3. Participants have to take care of their respective materials.<br>
+                                            4. The event will start at 11:30 am on 8th March 2019.<br>
+                                            5. Participants are requested to assemble at the location sharp at 9:30am
+                                            on 8th March 2019 for the arrangements.<br>
+
+                                            6. Loacation : Class A001 and A002.<br>
+                                            7. Participation certificate will be given to all participants.<br>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </main>
     <?php include "footer.php";?>
 

@@ -72,10 +72,10 @@
                                         <p><b><span class="font-weight-900">Event name :</span><span class="font-weight-600">&nbsp;Robo
                                                     Mania </span></b>
                                             <br>
-                                            <span class="font-weight-900">Entry Fee :</span>&nbsp;&nbsp; <span class="font-weight-600">100/-</span><br>
-                                            <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
+                                            <span class="font-weight-900">Entry Fee: </span> <span class="font-weight-600">100/-</span><br>
+                                            <span class="font-weight-900">Team Size: </span><span
                                                 class="font-weight-600">2</span><br>
-                                            <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
+                                            <span class="font-weight-900">Timing & date of Event: </span>
                                             <span class="font-weight-600"> 8th and 9th March</span>
                                         </p><br>
                                         <a href="ec1.php" class="btn btn-primary mt-4">Read more</a>
@@ -98,13 +98,13 @@
                                         <h6 class="text-primary text-uppercase"><b>Event 2:</b></h6><br>
                                         <b><span class="font-weight-900">Event code</b> :</span><span class="font-weight-600">EC02</span>
                                         <br>
-                                        <b><span class="font-weight-900">Event name :</span>&nbsp;&nbsp;<span class="font-weight-600">Tesoro
+                                        <b><span class="font-weight-900">Event name: </span><span class="font-weight-600">Tesoro
                                                 Hunt</span></b>
                                         <br>
-                                        <span class="font-weight-900">Entry Fee :</span>&nbsp;&nbsp; <span class="font-weight-600">200/-</span><br>
-                                        <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
-                                            class="font-weight-600">Maximum 4</span></b><br>
-                                        <b><span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;<span
+                                        <span class="font-weight-900">Entry Fee: </span> <span class="font-weight-600">200/-</span><br>
+                                        <span class="font-weight-900">Team Size: </span><span
+                                            class="font-weight-600"> 4</span></b><br>
+                                        <b><span class="font-weight-900">Timing & date of Event: </span><span
                                                 class="font-weight-600"> 8th and 9th March</span><br>
                                         </b>
                                         <a href="ec2.php" class="btn btn-primary mt-4">Read more</a>

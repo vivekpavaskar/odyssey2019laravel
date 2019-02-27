@@ -44,31 +44,43 @@
                                         <a href="/registerEvents" class="btn btn-success mt-4" style="float:right;">Register</a><br>
                                         <h6 class="text-primary text-uppercase"><b>Singing</b></h6>
                                         </h6><br>
-                                        <p><b><span class="font-weight-900">Event code :</span><span class="font-weight-600">GE1</span></b>
+                                        <p><b><span class="font-weight-900">Event code :</span><span class="font-weight-600">GE01</span></b>
                                             <br>
                                             <span class="font-weight-900">Event name :</span><span class="font-weight-600">&nbsp;&nbsp;Cutthroat
                                             </span>
                                             <br>
                                             <br>
+                                            <span class="font-weight-900">Staff Coordinator 1:</span>&nbsp;&nbsp;<span
+                                                class="font-weight-600">Dr. Dinesha H. A.</span>&nbsp; &nbsp;
+                                                <br>
+                                                <span class="font-weight-900">Staff Coordinator 2:</span>&nbsp;&nbsp;<span
+                                                class="font-weight-600">Prof. Niranjan M. </span>&nbsp; &nbsp; <br><br>
+                                                <br>
                                             <span class="font-weight-900">Student Coordinator 1:</span>&nbsp;&nbsp;<span
-                                                class="font-weight-600">Ms Sneha/Mr Ravi </span>&nbsp; &nbsp; <br><b><span
-                                                    class="font-weight-900">Mobile number:</span> <span class="font-weight-600">8762133780</span>
+                                                class="font-weight-600">Ms. Sneha &nbsp;[ 9916945153 ]</span>
+                                                <br>
+                                                <span class="font-weight-900">Student Coordinator 2:</span>&nbsp;&nbsp;<span
+                                                class="font-weight-600">Ms. Rutuja &nbsp;[ 7019610536 ] </span>
                                                 <br><br>
+                                                <span class="font-weight-900" style="color:red;">Audition Date: </span>&nbsp;<span
+                                                class="font-weight-600">6th March 2019 at 10:45 AM </span><br>
+                                            <span class="font-weight-900" style="color:red;">Audition Location: </span>&nbsp;<span
+                                                class="font-weight-600">A-207 </span><br>
                                                 <span class="font-weight-900">Entry Fee :</span><span class="font-weight-600">100/-</span><br>
-                                                <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
-                                                    class="font-weight-600"></span>01</span><br>
-                                                <span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;
-                                                <span class="font-weight-600">6th March 2019 at 10:45 AM</span><br>
-                                                <span class="font-weight-900">No. of Rounds:</span><span class="font-weight-600">01</span><br>
-                                                <span class="font-weight-900">no. of prizes:</span><span class="font-weight-600">3</span><br>
+                                                <span class="font-weight-900">Number of participant:</span>&nbsp;&nbsp;<span
+                                                    class="font-weight-600"> 1</span> <br>
+                                                <span class="font-weight-900">Timing & date of Event:</span>&nbsp;
+                                                <span class="font-weight-600"> 9th March 2019 at 06:00 PM </span><br>
+                                                <span class="font-weight-900">No. of Rounds:</span> <span class="font-weight-600"> 1</span><br>
+                                                <span class="font-weight-900"> No. of prizes:</span><span class="font-weight-600"> 3</span><br>
                                         </p><br>
 
                                         <h1> Details of event:</h1>
                                         <h4>General Rules</h4>
-                                        1.Time duration is 3 minutes for each participant.<br>
-                                        2.Final selection will be made by judges,decisions of the judges will be final.<br>
-                                        3.Songs must be in Hindi/English.<br>
-                                        4.Participants are requested to strictly adhere to the duration and schedule.<br>
+                                        1. Time duration is 3 minutes for each participant.<br>
+                                        2. Final selection will be made by judges,decisions of the judges will be final.<br>
+                                        3. Songs must be in Hindi/English.<br>
+                                        4. Participants are requested to strictly adhere to the duration and schedule.<br>
                                         <br>
 
                                         </p>

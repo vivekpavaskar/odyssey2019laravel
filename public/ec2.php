@@ -54,13 +54,15 @@
                                         <br>
                                         <b><span class="font-weight-900">Student Coordinator 2: </span>&nbsp;&nbsp;<span
                                                 class="font-weight-600">Tanuja Patil&nbsp;[ 9916023938 ]</span></b> &nbsp; &nbsp;  <br><br>
-                                            <span class="font-weight-900">Entry Fee :</span>&nbsp;&nbsp; <span class="font-weight-600">200/-</span><br>
-                                            <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
-                                                class="font-weight-600">Maximum 4</span></b><br>
-                                        <b><span class="font-weight-900">Timing & date of Event:</span>&nbsp;&nbsp;<span
+                                            <span class="font-weight-900">Entry Fee: </span> <span class="font-weight-600">200/-</span><br>
+                                            <span class="font-weight-900">Team Size: </span><span
+                                                class="font-weight-600">4</span></b><br>
+                                        <b><span class="font-weight-900">Timing & date of Event: </span><span
                                                 class="font-weight-600"> 8th and 9th March</span><br>
                                         </b>
-                                        <br>
+                                        
+                                        <span class="font-weight-900">Location : </span><span
+                                                class="font-weight-600"> C-building first floor</span><br>
                                         <br>
                                         <h1> Details of event:</h1>
                                         <h5>Rules:</h5>
