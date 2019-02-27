@@ -108,11 +108,16 @@
                             </div>
                         </div>
                     </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a href="gallery.php" class="nav-link" role="button">
+                    <li class="nav-item dropdown">
+                        <a href="rulebook.pdf" target="_blank" class="nav-link" role="button">
+                            <span class="nav-link-inner--text">Rulebook</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="gallery.html" class="nav-link" role="button">
                             <span class="nav-link-inner--text">Gallery</span>
                         </a>
-                    </li> -->
+                    </li>
                     <li class="nav-item dropdown">
                         <a href="devlopers.html" class="nav-link" role="button">
                             <span class="nav-link-inner--text">Devlopers</span>
