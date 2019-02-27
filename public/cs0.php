@@ -104,7 +104,7 @@
                                         <b><span class="font-weight-900">Event name :</span>&nbsp;&nbsp;<span class="font-weight-600">LAN
                                                 Gaming (Counter Strike),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAN
                                                 Gaming (PUBG)
-                                                Hunt</span></b>
+                                                </span></b>
                                         <br>
                                         <b><span class="font-weight-900">Entry Fee :</span><span class="font-weight-600">&nbsp;Rs.200</span><br>
                                             <span class="font-weight-900">Number of participants(with conditions):</span>&nbsp;&nbsp;<span
