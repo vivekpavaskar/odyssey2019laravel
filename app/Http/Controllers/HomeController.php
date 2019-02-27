@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\User;
 use App\Announcement;
 use App\Event;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\RegConfirm;
 
 class HomeController extends Controller
 {
@@ -26,6 +28,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+        // return (new RegConfirm)->render();
+        // Mail::to(auth()->user()->email)->send(new RegConfirm);
         $announcements=Announcement::orderBy('id', 'DESC')->get();
         return view('common.index')->with('announcements',$announcements);
     }
